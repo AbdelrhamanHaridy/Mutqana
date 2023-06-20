@@ -26145,7 +26145,7 @@ input::-webkit-inner-spin-button {
 
 @media (min-width: 1400px) {
     .header--3 .primary-menu__link {
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 3rem;
         color: hsl(var(--heading));
     }
 }
@@ -26292,6 +26292,7 @@ input::-webkit-inner-spin-button {
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease;
+    font-size: 15px;
 }
 
 .bttn:hover .bttn__arrow {
@@ -29253,7 +29254,7 @@ input::-webkit-inner-spin-button {
     content: "";
     position: absolute;
     inset: 0;
-    background: hsl(var(--neutral-100)/0.95);
+    background: hsla(0, 0%, 100%, 0.97);
     z-index: -1;
 }
 
