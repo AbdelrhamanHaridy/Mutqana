@@ -80,13 +80,13 @@
                 <a href="#" class="t-link clr-heading :clr-base"> About Us </a>
               </li>
               <li>
-                <a href="service-1.html" class="t-link clr-heading :clr-base"> Know Mutqanah </a>
+                <a href="service-1.html" class="t-link clr-heading :clr-base"> Know Mutqana </a>
               </li>
               <li>
                 <a href="case-study-1.html" class="t-link clr-heading :clr-base"> Clients </a>
               </li>
               <li>
-                <a href="contact-us.html" class="t-link clr-heading :clr-base"> Success stories
+                <a href="/contact" class="t-link clr-heading :clr-base"> Success stories
                 </a>
               </li>
               <li>
@@ -115,16 +115,13 @@
             <h5 class="mb-10"> Support </h5>
             <ul class="list list-xs">
               <li>
-                <a href="contact-us.html" class="t-link clr-heading :clr-base"> Contact Us </a>
-              </li>
-              <li>
-                <a href="leadership.html" class="t-link clr-heading :clr-base"> Leadership Page </a>
+                <a href="/contact" class="t-link clr-heading :clr-base"> Contact Us </a>
               </li>
               <li>
                 <a href="facts-1.html" class="t-link clr-heading :clr-base"> Facts </a>
               </li>
               <li>
-                <a href="faq-1.html" class="t-link clr-heading :clr-base"> FAQ </a>
+                <a href="" class="t-link clr-heading :clr-base"> FAQ </a>
               </li>
               <li>
                 <a href="help-center.html" class="t-link clr-heading :clr-base"> Help Center </a>
@@ -132,19 +129,16 @@
             </ul>
           </div>
           <div class="col-md-3 col-xl-2">
-            <h5 class="mb-10"> Learn Fact </h5>
+            <h5 class="mb-10"> Links Of Interest </h5>
             <ul class="list list-xsm">
               <li>
-                <a href="leadership-page.html" class="t-link clr-heading :clr-base"> Leadership Details </a>
+                <a href="leadership-page.html" class="t-link clr-heading :clr-base"> Work with us </a>
               </li>
               <li>
-                <a href="getting-started.html" class="t-link clr-heading :clr-base"> Getting Started </a>
+                <a href="getting-started.html" class="t-link clr-heading :clr-base"> Innovation </a>
               </li>
               <li>
-                <a href="blog-details-1.html" class="t-link clr-heading :clr-base"> Blog Details </a>
-              </li>
-              <li>
-                <a href="service-details-1.html" class="t-link clr-heading :clr-base"> Service Details </a>
+                <a href="service-details-1.html" class="t-link clr-heading :clr-base"> Experience Focus </a>
               </li>
             </ul>
           </div>
@@ -156,7 +150,7 @@
       <div class="container">
         <div class="row g-4 align-items-md-center">
           <div class="col-md-6">
-            <p class="text-center text-md-start"> Copyright 2023 Mutqanah All Rights Reserved. </p>
+            <p class="text-center text-md-start"> Copyright 2023 Mutqana All Rights Reserved. </p>
           </div>
           <div class="col-md-6">
             <ul class="list list-xs list-row justify-content-center justify-content-md-end">

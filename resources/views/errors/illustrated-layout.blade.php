@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>@yield('title')</title>
+         {{-- <title>@yield('title')</title> --}} <title>متقنة</title>
+
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">

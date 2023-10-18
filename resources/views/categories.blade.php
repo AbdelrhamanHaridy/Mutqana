@@ -9,7 +9,7 @@
                 <div class="col-md-11 col-xl-6">
                     <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT
                         LEVEL</span>
-                    <h2 class="mt-5 mb-5 text-center"> How Mutqanah Assist Your Business </h2>
+                    <h2 class="mt-5 mb-5 text-center"> How Mutqana Assist Your Business </h2>
                     <p class="text-center mx-auto max-text-60"> We Offer Unique Services Tailored Specifically for Your
                         Company.Innovative Methods to Help Boost Your Company's Profits </p>
                 </div>
@@ -79,7 +79,7 @@
                         your <span class="clr-accent">success</span>. </h3>
                     <div
                         class="group group-xmd group-row flex-wrap justify-content-center justify-content-xl-start align-items-center">
-                        <a href="contact-us.html"
+                        <a href="/contact"
                             class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
                             Talk to a Digital Expert today! </a>
                     </div>
@@ -115,7 +115,7 @@
                         <span class="process-card-2__notification"> 01 </span>
                     </div>
                     <h5 class="mt-8 mb-2"> Choose A Service </h5>
-                    <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
+                    <p>  </p>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3">
@@ -125,7 +125,7 @@
                         <span class="process-card-2__notification"> 02 </span>
                     </div>
                     <h5 class="mt-8 mb-2"> Request A Meeting </h5>
-                    <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
+                    <p>  </p>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3">
@@ -135,7 +135,7 @@
                         <span class="process-card-2__notification"> 03 </span>
                     </div>
                     <h5 class="mt-8 mb-2"> Start Planning </h5>
-                    <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
+                    <p>  </p>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3">
@@ -145,7 +145,7 @@
                         <span class="process-card-2__notification"> 04 </span>
                     </div>
                     <h5 class="mt-8 mb-2"> Lets Make security Happen </h5>
-                    <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
+                    <p>  </p>
                 </div>
             </div>
         </div>
@@ -347,7 +347,7 @@
                             service, multicultural and multi-time zones.
                         </p>
                     </div>
-                    <a href="contact-us.html"
+                    <a href="/contact"
                         class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
                         Accessible IT from beginning to
                         end </a>

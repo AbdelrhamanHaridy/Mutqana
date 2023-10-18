@@ -26275,7 +26275,7 @@ input::-webkit-inner-spin-button {
 }
 
 .logo img {
-    width: 200px;
+    width: 150px;
 }
 
 .logo__light {
@@ -32206,6 +32206,11 @@ input::-webkit-inner-spin-button {
     background-color: #1f2937
 }
 
+.cta-section-1 .we-offer {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .section .icon img {
     width: 50px;
 }
@@ -32214,7 +32219,6 @@ input::-webkit-inner-spin-button {
     .cta-section-1 {
         position: relative;
         isolation: isolate;
-        padding-top: clamp(2rem, 3.25vw, 3.75rem);
     }
 
     .cta-section-1 img {
@@ -33463,3 +33467,87 @@ input::-webkit-inner-spin-button {
 .location-card img {
     height: 300px;
 }
+
+/*
+.animated {
+    width: 100%;
+    background: linear-gradient(90deg, #ffe9ee, #d3d4d5, #ffefef, #d3d4d5);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 15s ease infinite forwards;
+    animation: gradientBG 15s ease infinite forwards;
+}
+
+
+@-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.diagonals .bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #fff6f8 50%, #ececec 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.diagonals .bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.diagonals .bg3 {
+    animation-duration: 5s;
+}
+
+.diagonals .content {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: .25em;
+    box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    left: 50%;
+    padding: 10vmin;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
+}
+*/

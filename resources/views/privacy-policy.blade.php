@@ -35,7 +35,7 @@
             of great pain and suffering. The mass but the element requires time but the price of laughter. There is no
             such thing as an easy time to target the disease. And he expected hunger and poverty. But the bed vestibule
             mattis ullamcorper wants but the corporal of disease. </p>
-          <h4 class="mb-5"> Use Terms for Itechex services </h4>
+          <h4 class="mb-5"> Use Terms for Mutqana services </h4>
           <p class="mb-10"> He wants but the body of the disease needs to decorate the mass. It is a pleasure that God
             wants to decorate it with a bow. It is easy, but who benefits from the disease? The life of the shooters of
             the CNN media. Now the chocolate cartoon is on. Life is a wonderful place. Purus in the mass of time nor

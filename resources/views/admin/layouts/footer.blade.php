@@ -8,6 +8,6 @@
     </div>
 
     <div class="navbar-collapse collapse" id="navbar-footer">
-        <span class="navbar-text">القبطان 2020 - {{date('Y')}} &copy;</span>
+        <span class="navbar-text">متقنة 2023 - {{date('Y')}} &copy;</span>
     </div>
 </div><!-- /footer -->

@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class="hero-3__content">
+<div class="hero-3__content animated">
       <div class="container">
         <div class="row g-4">
           <div class="col-md-8 col-xxl-6" style="margin: auto;">
@@ -14,7 +14,7 @@
             <p class=" xl-text mb-8"> Choose the optimal direction for your business growth by embracing Digital Transformation. With a track record of technological innovation, we have been supporting businesses to succeed in a fiercely competitive market. Our client-centric approach enables us to provide state-of-the-art technology solutions that cater to your unique business requirements and overcome your challenges.
             </p>
             <div class="group group-sm-row align-items-start align-items-sm-center">
-              <a href="contact-us.html" class="bttn bttn-pill bttn-md bttn--base align-items-center fw-md gap-2">
+              <a href="/contact" class="bttn bttn-pill bttn-md bttn--base align-items-center fw-md gap-2">
                 We Can Do IT Together
               </a>
 
@@ -128,6 +128,13 @@
         </div>
       </div>
     </div>
+
+    <section class="diagonals">
+        <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+    </section>
   <!-- About Section  -->
   <div class="section about-section-1">
     <div class="section__gap-bottom">
@@ -135,7 +142,7 @@
         <div class="row justify-content-center">
           <div class="col-md-11 col-xl-6">
             <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT LEVEL</span>
-            <h2 class="mt-5 mb-5 text-center"> How Mutqanah Assist Your Business </h2>
+            <h2 class="mt-5 mb-5 text-center"> How Mutqana Assist Your Business </h2>
             <p class="text-center mx-auto max-text-60"> We Offer Unique Services Tailored Specifically for Your
               Company.Innovative Methods to Help Boost Your Company's Profits </p>
           </div>
@@ -182,6 +189,7 @@
     </div>
   </div>
   <!-- About Section End -->
+
   <!-- About  -->
   <div class="section">
     <div class="container">
@@ -266,16 +274,16 @@
   <div class="cta-section-1">
     <div class="cta-section-1__content section">
       <div class="container">
-        <div class="row justify-content-center justify-content-xl-end">
-          <div class="col-md-6 col-lg-6 col-xl-6">
-            <img src="{{asset('website/assets/images/banners/alvaro-reyes-fSWOVc3e06w-unsplash.jpg')}}" alt="">
+        <div class="row ">
+          <div class="col-lg-5">
+            <img class="w-100" src="{{asset('website/assets/images/banners/Photo5.png')}}" alt="">
           </div>
-          <div class="col-md-6 col-lg-6 col-xl-6">
+          <div class="col-lg-7 we-offer">
             <h3 class="clr-light mb-10 text-center text-xl-start"> We offer many different IT services that guarantee
               your <span class="">success</span>. </h3>
             <div
               class="group group-xmd group-row flex-wrap justify-content-center justify-content-xl-start align-items-center">
-              <a href="contact-us.html" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
+              <a href="/contact" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
                 Talk to a Digital Expert today! </a>
             </div>
           </div>
@@ -355,7 +363,7 @@
     <div class="container">
       <div class="row g-4 align-items-center justify-content-xxl-between">
         <div class="col-lg-5 col-xl-5 col-xxl-5">
-          <img src="{{asset('website/assets/images/banners/pexels-mikhail-nilov-8729928.jpg')}}" class="w-100" alt="image">
+          <img src="{{asset('website/assets/images/banners/alvaro-reyes-fSWOVc3e06w-unsplash.png')}}" class="w-100" alt="image">
         </div>
         <div class="col-lg-7 col-xl-7">
           <div
@@ -371,7 +379,7 @@
                 service, multicultural and multi-time zones.
               </p>
             </div>
-            <a href="contact-us.html" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
+            <a href="/contact" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
               Accessible IT from beginning to
               end </a>
             <a href="#"

@@ -23,8 +23,8 @@
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="text-center">
-              <a href="contact-us.html" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s
-                Schedule a Call <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover">
+              <a href="/contact" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s
+                  Call Us <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover">
                   headphones </span>
               </a>
             </div>
@@ -238,7 +238,7 @@
     </section>
       <!-- Contact Section End -->
   <!-- Testimonials  -->
-  <div class="section">
+  {{-- <div class="section">
     <div class="section__gap-bottom">
       <div class="container">
         <div class="row justify-content-center">
@@ -517,7 +517,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
   <!-- Testimonials End -->
   {{--
     <div class="page-title-area">

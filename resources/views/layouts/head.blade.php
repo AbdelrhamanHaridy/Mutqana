@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://pix-Itechex-demo.vercel.app/assets/css/lib/material-icons.css">
 
     {{--Favicon icon --}}
-    <link rel="icon" type="image/png" href="{{asset('website/assets/images/logo.png')}}">
+    <link rel="icon" type="image/png" href="{{asset('website/assets/images/img/favicon.png')}}">
     {!! SEOMeta::generate() !!}
     {!! OpenGraph::generate() !!}
     {!! Twitter::generate() !!}

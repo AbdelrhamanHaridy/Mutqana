@@ -27,133 +27,7 @@
         </div>
       </div>
     </div>
- <!-- About Section  -->
- <div class="section about-section-1">
-    <div class="section__gap-bottom">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-11 col-xl-6">
-            <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT LEVEL</span>
-            <h2 class="mt-5 mb-5 text-center"> How Mutqanah Assist Your Business </h2>
-            <p class="text-center mx-auto max-text-60"> We Offer Unique Services Tailored Specifically for Your
-              Company.Innovative Methods to Help Boost Your Company's Profits </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-xxl">
-      <div class="row g-4">
-        {{-- <div class="row">
-            @foreach($services as $service)
-            <div class="col-lg-3 col-sm-6 ">
-                <div class="single-services-box">
-                    <a href="javascript:void(0);"><img src="{{$service->photo}}" alt="Images"></a>
-                    <h3><a href="javascript:void(0);">{{$service->title}}</a></h3>
-                    <p>{!! $service->content !!}</p>
-                </div>
-            </div>
-            @endforeach
-        </div> --}}
-        @foreach($services as $service)
-        <div class="col-md-6 col-xl-4">
-
-          <div class="about-card-1">
-            <div class="icon-box icon-box--md circle icon-box--base-outline clr-heading">
-              <span class=""><img src="{{$service->photo}}"  alt=""></span>
-            </div>
-            <h5 class="mt-8 mb-5"> {{$service->title}} </h5>
-            <p class="mb-6">{!! $service->content !!}</p>
-          </div>
-        </div>
-        @endforeach
-      </div>
-    </div>
-  </div>
-  <!-- About Section End -->
-  <!-- CTA Section  -->
-  <div class="cta-section-1">
-    <div class="cta-section-1__content section">
-      <div class="container">
-        <div class="row justify-content-center justify-content-xl-end">
-            <div class="col-md-6 col-lg-6 col-xl-6">
-                <img src="{{asset('website/assets/images/banners/alvaro-reyes-fSWOVc3e06w-unsplash.jpg')}}" alt="">
-              </div>
-          <div class="col-md-6 col-lg-6 col-xl-6">
-            <h3 class="clr-light mb-10 text-center text-xl-start"> We offer many different IT services that guarantee
-              your <span class="clr-accent">success</span>. </h3>
-            <div
-              class="group group-xmd group-row flex-wrap justify-content-center justify-content-xl-start align-items-center">
-              <a href="contact-us.html" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
-                Talk to a Digital Expert today! </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- CTA Section End -->
-
-  <!-- Work Process Section  -->
-  <section class="section">
-    <div class="section__gap-bottom">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-xl-7">
-            <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> How It Works </span>
-            <h2 class="mt-5 mb-5 text-center"> Our Work Processs </h2>
-            <p class="text-center mx-auto max-text-60"> Expertise Will Be Provided In Order To Improve Your Cyber
-              Defenses To get our cyber security services, there are only a few straightforward actions to do. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row gy-5 g-4 justify-content-center">
-        <div class="col-sm-6 col-lg-3">
-          <div class="process-card-2 process-card-2--1 text-center">
-            <div class="process-card-2__icon">
-              <img src="{{asset('website/assets/images/icon-47.png')}}" alt="image" class="img-fluid">
-              <span class="process-card-2__notification"> 01 </span>
-            </div>
-            <h5 class="mt-8 mb-2"> Choose A Service </h5>
-            <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="process-card-2 process-card-2--2 text-center">
-            <div class="process-card-2__icon">
-              <img src="{{asset('website/assets/images/icon-48.png')}}" alt="image" class="img-fluid">
-              <span class="process-card-2__notification"> 02 </span>
-            </div>
-            <h5 class="mt-8 mb-2"> Request A Meeting </h5>
-            <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="process-card-2 process-card-2--1 text-center">
-            <div class="process-card-2__icon">
-              <img src="{{asset('website/assets/images/icon-49.png')}}" alt="image" class="img-fluid">
-              <span class="process-card-2__notification"> 03 </span>
-            </div>
-            <h5 class="mt-8 mb-2"> Start Planning </h5>
-            <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="process-card-2 text-center">
-            <div class="process-card-2__icon">
-              <img src="{{asset('website/assets/images/icon-50.png')}}" alt="image" class="img-fluid">
-              <span class="process-card-2__notification"> 04 </span>
-            </div>
-            <h5 class="mt-8 mb-2"> Lets Make security Happen </h5>
-            <p> sit amet consectetuer adipiscing elitenean commodo ligula </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Work Process Section End -->
-  <!-- Technologies  -->
+      <!-- Technologies  -->
   <div class="section bg-base">
     <div class="section__gap-bottom">
       <div class="container">
@@ -290,7 +164,7 @@
         </div>
       </div>
     </div>
-    <div class="section__gap-top">
+    {{-- <div class="section__gap-top">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-10 col-xl-8">
@@ -303,9 +177,114 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
   </div>
   <!-- Technologies End -->
+
+ <!-- About Section  -->
+ <div class="section about-section-1">
+    <div class="section__gap-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-11 col-xl-6">
+            <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT LEVEL</span>
+            <h2 class="mt-5 mb-5 text-center"> How Mutqana Assist Your Business </h2>
+            <p class="text-center mx-auto max-text-60"> We Offer Unique Services Tailored Specifically for Your
+              Company.Innovative Methods to Help Boost Your Company's Profits </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-xxl">
+      <div class="row g-4">
+        {{-- <div class="row">
+            @foreach($services as $service)
+            <div class="col-lg-3 col-sm-6 ">
+                <div class="single-services-box">
+                    <a href="javascript:void(0);"><img src="{{$service->photo}}" alt="Images"></a>
+                    <h3><a href="javascript:void(0);">{{$service->title}}</a></h3>
+                    <p>{!! $service->content !!}</p>
+                </div>
+            </div>
+            @endforeach
+        </div> --}}
+        @foreach($services as $service)
+        <div class="col-md-6 col-xl-4">
+
+          <div class="about-card-1">
+            <div class="icon-box icon-box--md circle icon-box--base-outline clr-heading">
+              <span class=""><img src="{{$service->photo}}"  alt=""></span>
+            </div>
+            <h5 class="mt-8 mb-5"> {{$service->title}} </h5>
+            <p class="mb-6">{!! $service->content !!}</p>
+          </div>
+        </div>
+        @endforeach
+      </div>
+    </div>
+  </div>
+  <!-- About Section End -->
+
+  <!-- Work Process Section  -->
+  <section class="section">
+    <div class="section__gap-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-xl-7">
+            <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> How It Works </span>
+            <h2 class="mt-5 mb-5 text-center"> Our Work Processs </h2>
+            <p class="text-center mx-auto max-text-60"> Expertise Will Be Provided In Order To Improve Your Cyber
+              Defenses To get our cyber security services, there are only a few straightforward actions to do. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row gy-5 g-4 justify-content-center">
+        <div class="col-sm-6 col-lg-3">
+          <div class="process-card-2 process-card-2--1 text-center">
+            <div class="process-card-2__icon">
+              <img src="{{asset('website/assets/images/icon-47.png')}}" alt="image" class="img-fluid">
+              <span class="process-card-2__notification"> 01 </span>
+            </div>
+            <h5 class="mt-8 mb-2"> Choose A Service </h5>
+            <p>  </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="process-card-2 process-card-2--2 text-center">
+            <div class="process-card-2__icon">
+              <img src="{{asset('website/assets/images/icon-48.png')}}" alt="image" class="img-fluid">
+              <span class="process-card-2__notification"> 02 </span>
+            </div>
+            <h5 class="mt-8 mb-2"> Request A Meeting </h5>
+            <p>  </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="process-card-2 process-card-2--1 text-center">
+            <div class="process-card-2__icon">
+              <img src="{{asset('website/assets/images/icon-49.png')}}" alt="image" class="img-fluid">
+              <span class="process-card-2__notification"> 03 </span>
+            </div>
+            <h5 class="mt-8 mb-2"> Start Planning </h5>
+            <p>  </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="process-card-2 text-center">
+            <div class="process-card-2__icon">
+              <img src="{{asset('website/assets/images/icon-50.png')}}" alt="image" class="img-fluid">
+              <span class="process-card-2__notification"> 04 </span>
+            </div>
+            <h5 class="mt-8 mb-2"> Lets Make security Happen </h5>
+            <p>  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Work Process Section End -->
 
   <section class="p-8">
     <div class="container">
@@ -325,7 +304,7 @@
     <div class="container">
       <div class="row g-4 align-items-center justify-content-xxl-between">
         <div class="col-lg-5 col-xl-5 col-xxl-5">
-          <img src="{{asset('website/assets/images/banners/pexels-mikhail-nilov-8729928.jpg')}}" class="w-100" alt="image">
+          <img src="{{asset('website/assets/images/banners/pexels-mikhail-nilov-8729928.png')}}" class="w-100" alt="image">
         </div>
         <div class="col-lg-7 col-xl-7">
           <div
@@ -341,7 +320,7 @@
                 service, multicultural and multi-time zones.
               </p>
             </div>
-            <a href="contact-us.html" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
+            <a href="/contact" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
               Accessible IT from beginning to
               end </a>
           </div>
@@ -349,6 +328,26 @@
       </div>
     </div>
   </div>
+  <!-- CTA Section  -->
+  <div class="cta-section-1">
+    <div class="cta-section-1__content section">
+      <div class="container">
+        <div class="row justify-content-center justify-content-xl-end">
+          <div class="col-md-12 col-lg-12 col-xl-12">
+            <h1 class="clr-light mb-12 text-center text-xl-start">We offer many different IT services that guarantee
+              your <span class="clr-accent">success</span>. </h1>
+            <div
+              class="group group-xmd group-row flex-wrap justify-content-center justify-content-xl-start align-items-center">
+              <a href="/contact" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
+                Talk to a Digital Expert today! </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- CTA Section End -->
+
   <!-- CTA End -->
   {{--
     <div class="page-title-area">

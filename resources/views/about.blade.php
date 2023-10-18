@@ -3,26 +3,84 @@
 
 @section('content')
 <div class="hero-3__content">
+
       <div class="container">
         <div class="row g-4">
-          <div class="col-md-8 col-xxl-6" style="margin: auto;">
-            <h3 class="mb-4">Fostering a Culture of Innovation for Exceptional IT Solutions
-            </h3>
+          <div class="col-md-12 col-xxl-12" style="margin: auto;">
+            <h1 class="mb-4">Fostering a Culture of Innovation for Exceptional IT Solutions
+            </h1>
             <p class=" xl-text mb-8">
-                At Mutqanah Innova, we strongly believe that innovation is at the heart of delivering unmatched IT solutions to our clients. Our culture is centered on experimentation and continuous improvement, which enables us to constantly push the limits of what's achievable and discover new opportunities for growth and success. By nurturing innovation within our company, we are able to stay ahead of the curve and provide cutting-edge solutions that meet the evolving needs of our clients. Our commitment to innovation is what sets us apart and enables us to deliver exceptional results that exceed expectations.
+                At Mutqana Innova, we strongly believe that innovation is at the heart of delivering unmatched IT solutions to our clients. Our culture is centered on experimentation and continuous improvement, which enables us to constantly push the limits of what's achievable and discover new opportunities for growth and success. By nurturing innovation within our company, we are able to stay ahead of the curve and provide cutting-edge solutions that meet the evolving needs of our clients. Our commitment to innovation is what sets us apart and enables us to deliver exceptional results that exceed expectations.
             </p>
 
             <div class="group group-sm-row align-items-start align-items-sm-center pt-3">
-              <a href="contact-us.html" class="bttn bttn-pill bttn-md bttn--base align-items-center fw-md gap-2">
+              <a href="/contact" class="bttn bttn-pill bttn-md bttn--base align-items-center fw-md gap-2">
                 Know more about it!              </a>
             </div>
           </div>
-          <div class="col-md-4 col-xxl-6">
+          {{-- <div class="col-md-4 col-xxl-6">
            <img src="{{asset('website/assets/images/banners/About.png')}}" class="w-100" alt="">
-          </div>
+          </div> --}}
         </div>
       </div>
     </div>
+
+  <!-- Numbers  -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section__gap-bottom pb-lg-0 position-sticky top-0">
+            <span class="d-block h5 lh-1 fw-semibold clr-base"> Top engineers, dedicated your success </span>
+            <h2 class="mt-2 mb-4"> Numbers speak louder than words </h2>
+            <p> Here are a few numbers that speak to Mutqana's power, ease, and speed. </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="row g-4">
+              <div class="col-sm-6">
+                <div class="py-4 border-top">
+                  <p class="mb-2 clr-heading md-text"> Followers: </p>
+                  <h2 class="fw-normal clr-base"> 35k </h2>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="py-4 border-top">
+                  <p class="mb-2 clr-heading md-text"> Clients served to date: </p>
+                  <h2 class="fw-normal clr-base"> 70+ </h2>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="py-4 border-top">
+                  <p class="mb-2 clr-heading md-text"> Years in business: </p>
+                  <h2 class="fw-normal clr-base"> 8+ </h2>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="py-4 border-top">
+                  <p class="mb-2 clr-heading md-text"> Product Launch: </p>
+                  <h2 class="fw-normal clr-base"> 36 </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        {{-- <div class="col-lg-6">
+          <div class="row g-4">
+          @foreach($numbers as $number)
+            <div class="col-sm-6">
+              <div class="py-4 border-top">
+                <p class="mb-2 clr-heading md-text"> {{$number->title}}: </p>
+                <h2 class="fw-normal clr-base"> {{$number->number}} </h2>
+              </div>
+            </div>
+            @endforeach
+          </div>
+        </div> --}}
+      </div>
+    </div>
+  </section>
  <!-- Service Section  -->
  <div class="section">
     <div class="section__gap-bottom">
@@ -32,7 +90,7 @@
             <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT LEVEL
 
             </span>
-            <h2 class="mt-5 mb-5 text-center"> Why DigiTalents prefer Mutqanah? </h2>
+            <h2 class="mt-5 mb-5 text-center"> Why DigiTalents prefer Mutqana? </h2>
           </div>
         </div>
       </div>
@@ -148,7 +206,7 @@
           <div class="col-md-10 col-xl-8">
             <div class="group group-row flex-wrap justify-content-center align-items-center">
               <a href="service-1.html" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> More Service </a>
-              <a href="contact-us.html"
+              <a href="/contact"
                 class="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
                 <span class="bttn__arrow"> Contact us Now </span>
               </a>
@@ -160,52 +218,7 @@
   </div>
   <!-- Service Section End -->
   <!-- Help Category -->
-  <div class="section bg-neutral-100">
-    <div class="section__gap-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <span class="d-block h5 lh-1 fw-semibold clr-base"> Ready to take your career to the next level?
-            </span>
-            <div class="group group-row flex-wrap gap-5 justify-content-between align-items-center">
-              <h2 class="flex-grow-1"> OUR DIGITAL TALENTS
-              </h2>
-              <a href="blog-page-1.html"
-                class="bttn bttn--base-outline bttn-md bttn-pill gap-2 fw-md flex-shrink-0 align-items-center"> All
-                Articles <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-base"> arrow_forward
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row g-6">
-        <div class="col-md-6 col-lg-4">
-          <div class="help-card text-center">
-           <img src="{{asset('website/assets/images/icon-75.png')}}" alt="image" class="img-fluid">
-            <h5 class="mt-8 mb-5"> Design Articles </h5>
-            <p> Feugiat ultrices penatibus commodo dui. Ullamcorper aliquet aliquam et risus. </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="help-card text-center">
-           <img src="{{asset('website/assets/images/icon-76.png')}}" alt="image" class="img-fluid">
-            <h5 class="mt-8 mb-5"> Development Articles </h5>
-            <p> Feugiat ultrices penatibus commodo dui. Ullamcorper aliquet aliquam et risus. </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="help-card text-center">
-           <img src="{{asset('website/assets/images/icon-77.png')}}" alt="image" class="img-fluid">
-            <h5 class="mt-8 mb-5"> Marketing Articles </h5>
-            <p> Feugiat ultrices penatibus commodo dui. Ullamcorper aliquet aliquam et risus. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <!-- Help Category End -->
   <!-- About Section  -->
   {{-- <div class="section">
@@ -218,7 +231,7 @@
             <p class="mb-5"> {{$about_us->description}} </p>
             <p class="mb-8">  {{$about->title}}</p>
             <p>{{$about->text}}</p>
-            <a href="contact-us.html" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s work
+            <a href="/contact" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s work
               together <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover"> arrow_forward
               </span>
 
@@ -240,32 +253,6 @@
   </div> --}}
   <!-- About Section End -->
 
-  <!-- Numbers  -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section__gap-bottom pb-lg-0 position-sticky top-0">
-            <span class="d-block h5 lh-1 fw-semibold clr-base"> Top engineers, dedicated your success </span>
-            <h2 class="mt-2 mb-4"> Numbers speak louder than words </h2>
-            <p> Here are a few numbers that speak to itechex's power, ease, and speed. </p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="row g-4">
-          @foreach($numbers as $number)
-            <div class="col-sm-6">
-              <div class="py-4 border-top">
-                <p class="mb-2 clr-heading md-text"> {{$number->title}}: </p>
-                <h2 class="fw-normal clr-base"> {{$number->number}} </h2>
-              </div>
-            </div>
-            @endforeach
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- Numbers End -->
 
   {{-- <!-- Value Share  -- >
@@ -470,7 +457,7 @@
         <div class="row justify-content-center">
           <div class="col-md-10 col-xl-8">
             <div class="group group-row flex-wrap justify-content-center align-items-center">
-              <a href="contact-us.html" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> Join Us Now
+              <a href="/contact" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> Join Us Now
               </a>
               <a href="leadership.html"
                 class="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">

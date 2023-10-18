@@ -15,7 +15,7 @@
   <!-- Mobile Menu -->
   <nav class="mobile-menu">
     <div class="mobile-menu__head">
-      <a href="home.html" class="mobile-menu__logo">
+      <a href="/" class="mobile-menu__logo">
         <img src="{{asset('website/assets/images/banners/logo.png')}}" alt="image" class="mobile-menu__logo-img">
       </a>
       <button class="mobile-menu__close">
@@ -42,38 +42,38 @@
       <div class="mobile-menu__center">
         <ul class="list mobile-menu__list">
           <li>
-            <a href="home.html" class="mobile-menu__link ">Home</a>
+            <a href="/" class="mobile-menu__link ">Home</a>
           </li>
           <li>
             <a href="#" class="mobile-menu__link has-sub">About</a>
             <ul class="list mobile-menu__sub">
               <li>
-                <a href="blog-page-1.html" class="mobile-menu__sub-link">ABOUT MUATCAN </a>
+                <a href="/about" class="mobile-menu__sub-link">ABOUT MUATCAN </a>
               </li>
               <li>
-                <a href="facts-1.html" class="mobile-menu__sub-link"> SUCCESS STORIES </a>
+                <a href="/about" class="mobile-menu__sub-link"> SUCCESS STORIES </a>
               </li>
               <li>
-                <a href="case-study-1.html" class="mobile-menu__sub-link"> CLIENTS & PROJECTS
+                <a href="/about" class="mobile-menu__sub-link"> CLIENTS & PROJECTS
                 </a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="#" class="mobile-menu__link has-sub">SOFTWARE</a>
+            <a href="serve" class="mobile-menu__link has-sub">SOFTWARE</a>
             <ul class="list mobile-menu__sub">
               <li>
-                <a href="choose-us-1.html" class="mobile-menu__sub-link">SOFTWARE MUATCAN </a>
+                <a href="/services" class="mobile-menu__sub-link">SOFTWARE MUATCAN </a>
               </li>
               <li>
-                <a href="blog-details-1.html" class="mobile-menu__sub-link"> AGILE SOFTWARE </a>
+                <a href="/services" class="mobile-menu__sub-link"> AGILE SOFTWARE </a>
               </li>
               <li>
-                <a href="blog-details-1.html" class="mobile-menu__sub-link"> DEVOPS AND MORE
+                <a href="/services" class="mobile-menu__sub-link"> DEVOPS AND MORE
                 </a>
               </li>
               <li>
-                <a href="blog-details-1.html" class="mobile-menu__sub-link"> IT PAYMENTS
+                <a href="/services" class="mobile-menu__sub-link"> IT PAYMENTS
                 </a>
               </li>
 
@@ -219,7 +219,7 @@
   </nav>
   <!-- Mobile Menu End -->
   <!-- Hero 3 -->
-  <section class="hero-3">
+  <section class="hero-3 animated">
     <header class="header header--3">
       <div class="container">
         <div class="row">
@@ -276,7 +276,7 @@
                       <span class="mega-menu__title">Success Stories</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="success_stories.html" class="mega-menu__link"> Our past victories are the foundation
+                          <a href="#" class="mega-menu__link"> Our past victories are the foundation
                             for your
                             future growth. </a>
                         </li>
@@ -287,7 +287,7 @@
                       </span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="clients-and-projects.html" class="mega-menu__link"> Our goal is to develop long-term
+                          <a href="#" class="mega-menu__link"> Our goal is to develop long-term
                             relationships with clients. </a>
                         </li>
 
@@ -314,7 +314,7 @@
                       <span class="mega-menu__title">Agile Software</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="faq-1.html" class="mega-menu__link">
+                          <a href="" class="mega-menu__link">
                             Delivering high-quality software solutions using Agile allows us to respond rapidly to
                             changing market demands and ensure continuous improvement.</a>
                         </li>
@@ -324,7 +324,7 @@
                       <span class="mega-menu__title"> DevOps and More</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="faq-1.html" class="mega-menu__link">
+                          <a href="" class="mega-menu__link">
 
                             Our DevOps service focuses on fostering communication, enabling seamless integration
                             throughout
@@ -337,7 +337,7 @@
                       </span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="case-study-details-1.html" class="mega-menu__link">
+                          <a href="" class="mega-menu__link">
                             Our payment solutions are designed to meet the specific needs of your business, whether you
                             are a small startup or a large corporation.</a>
                         </li>
@@ -354,7 +354,7 @@
                       <span class="mega-menu__title">Digital Talents</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="#" class="mega-menu__link">
+                          <a href="/services" class="mega-menu__link">
                             With 30 years of experience under our belt, our expertise positions us as industry
                             leaders</a>
                         </li>
@@ -365,7 +365,7 @@
                       <span class="mega-menu__title">Express IT Nearshore</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="faq-1.html" class="mega-menu__link">
+                          <a href="/services" class="mega-menu__link">
                             Our premium staffing augmentation service is designed to help businesses of all sizes and
                             industries quickly and efficiently scale their teams with highly skilled and experienced
                             professionals.
@@ -378,7 +378,7 @@
                       <span class="mega-menu__title"> Digital Hunting</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="faq-1.html" class="mega-menu__link">
+                          <a href="/services" class="mega-menu__link">
 
                             Engineered to revolutionize how you attract, engage, and hire top talent, our comprehensive
                             approach ensures you secure the best candidates to drive your business forward.
@@ -410,7 +410,7 @@
                       <span class="mega-menu__title">Find your new job</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="faq-1.html" class="mega-menu__link">
+                          <a href="" class="mega-menu__link">
 
                             By getting in touch and applying through this link, you'll have access to the fastest way to
                             find your next career move.
@@ -422,7 +422,7 @@
                       <span class="mega-menu__title"> Careers</span>
                       <ul class="list mega-menu__list">
                         <li>
-                          <a href="faq-1.html" class="mega-menu__link">
+                          <a href="" class="mega-menu__link">
 
 
                             Apply to our opportunities, leave your CV, and our platform will send you proposals that
@@ -436,9 +436,9 @@
                 <li class="mega-menu--container">
                   <a href="{{route('articles')}}" class="primary-menu__link "> Blog </a>
                 </li>
-                <li class="ms-auto border-end border-light-subtle">
-                  <a href="home-3-rtl.html" class="primary-menu__link py-0 px-3"> RTL </a>
-                </li>
+                {{-- <li class="ms-auto border-end border-light-subtle">
+                  <a href="" class="primary-menu__link py-0 px-3"> RTL </a>
+                </li> --}}
                 <li>
                     <button class="dark-mode-toggle">
                       <span class="dark-mode-toggle__light">

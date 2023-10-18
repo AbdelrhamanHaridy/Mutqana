@@ -56,14 +56,14 @@
       <div class="row justify-content-xxl-between">
         <div class="col-lg-6 col-xxl-5">
           <div class="section__gap-bottom pb-lg-0 position-sticky top-0">
-            <span class="d-block h5 lh-1 fw-semibold clr-base"> We’re itechex </span>
+            <span class="d-block h5 lh-1 fw-semibold clr-base"> We’re Mutqana </span>
             <h2 class="mt-2 mb-4"> A world of talentat your fingertips </h2>
             <p class="mb-5"> We assemble senior-level, dedicated teams of developers to help fast-growing startups and
               innovative enterprises drive impact and achieve their goals. </p>
             <p class="mb-8"> We got our start more than 15 years ago and have since grown into a truly global operation.
               While our clients are busy with business as usual, we’re working across every corner of the map to nail
               their next project. </p>
-            <a href="contact-us.html" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s work
+            <a href="/contact" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s work
               together <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover"> arrow_forward
               </span>
             </a>
@@ -92,7 +92,7 @@
           <div class="section__gap-bottom pb-lg-0 position-sticky top-0">
             <span class="d-block h5 lh-1 fw-semibold clr-base"> Top engineers, dedicated your success </span>
             <h2 class="mt-2 mb-4"> Numbers speak louder than words </h2>
-            <p> Here are a few numbers that speak to itechex's power, ease, and speed. </p>
+            <p> Here are a few numbers that speak to Mutqana's power, ease, and speed. </p>
           </div>
         </div>
         <div class="col-lg-6">
@@ -453,7 +453,7 @@
         <div class="row justify-content-center">
           <div class="col-md-10 col-xl-8">
             <div class="group group-row flex-wrap justify-content-center align-items-center">
-              <a href="contact-us.html" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> Join Us Now
+              <a href="/contact" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> Join Us Now
               </a>
               <a href="leadership.html"
                 class="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
