@@ -20,9 +20,10 @@
 
             </div>
           </div>
+
           <div class="col-md-4 col-xxl-6">
-            {{-- <img src="{{asset('website/assets/images/banners/DevOps-1.png')}}" class="w-100" alt=""> --}}
-            <svg width="100%" viewBox="0 0 535 421" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <img src="{{asset('website/assets/images/banners/Photo10.png')}}" class="w-100" alt="">
+            {{-- <svg width="100%" viewBox="0 0 535 421" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="Homepage-Desktop" transform="translate(-840.000000, -154.000000)" fill-rule="nonzero">
                 <g id="Homepage-illustration" transform="translate(840.000000, 154.000000)">
@@ -123,8 +124,10 @@
                 </g>
                 </g>
                 </g>
-               </svg>
-          </div>
+               </svg> --}}
+
+            </div>
+
         </div>
       </div>
     </div>

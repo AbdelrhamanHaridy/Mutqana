@@ -182,53 +182,150 @@
   <!-- Technologies End -->
 
  <!-- About Section  -->
- <div class="section about-section-1">
+ <!-- Service Section  -->
+ <div class="section">
     <div class="section__gap-bottom">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-11 col-xl-6">
-            <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT LEVEL</span>
-            <h2 class="mt-5 mb-5 text-center"> How Mutqana Assist Your Business </h2>
-            <p class="text-center mx-auto max-text-60"> We Offer Unique Services Tailored Specifically for Your
-              Company.Innovative Methods to Help Boost Your Company's Profits </p>
+          <div class="col-md-10 col-xxl-8">
+            <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT LEVEL
+
+            </span>
+            <h2 class="mt-5 mb-5 text-center"> Why DigiTalents prefer Mutqana? </h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-xxl">
-      <div class="row g-4">
-        {{-- <div class="row">
-            @foreach($services as $service)
-            <div class="col-lg-3 col-sm-6 ">
-                <div class="single-services-box">
-                    <a href="javascript:void(0);"><img src="{{$service->photo}}" alt="Images"></a>
-                    <h3><a href="javascript:void(0);">{{$service->title}}</a></h3>
-                    <p>{!! $service->content !!}</p>
-                </div>
+    <div class="container">
+      <div class="row g-3 g-xxl-4 justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card service-card--1">
+            <div class="icon-box icon-box--md circle  flex-shrink-0">
+             <img src="{{asset('website/assets/images/banners/Inbox cleanup-pana.png')}}" alt="image">
             </div>
-            @endforeach
-        </div> --}}
-        @foreach($services as $service)
-        <div class="col-md-6 col-xl-4">
-
-          <div class="about-card-1">
-            <div class="icon-box icon-box--md circle icon-box--base-outline clr-heading">
-              <span class=""><img src="{{$service->photo}}"  alt=""></span>
+            <div class="flex-grow-1">
+                <h5 class="mb-2">Web Development</h5>
+                <p class="mb-5"> We can design and develop websites, web applications, and e-commerce platforms. This includes creating a custom design, developing the site's functionality, and ensuring that it is optimized for search engines.
+              </p>
             </div>
-            <h5 class="mt-8 mb-5"> {{$service->title}} </h5>
-            <p class="mb-6">{!! $service->content !!}</p>
           </div>
         </div>
-        @endforeach
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card service-card--1">
+            <div class="icon-box icon-box--md circle flex-shrink-0">
+                <img src="{{asset('website/assets/images/banners/Mobile testing-amico.png')}}" alt="image">
+            </div>
+            <div class="flex-grow-1">
+                <h5 class="mb-2">Mobile App Development</h5>
+                <p class="mb-5"> We  can create mobile applications for Android and iOS devices. This includes developing the application's functionality, designing the user interface, and ensuring that it is compatible with multiple devices.
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card service-card--1">
+            <div class="icon-box icon-box--md circle  flex-shrink-0">
+                <img src="{{asset('website/assets/images/banners/agile method-bro.png')}}" alt="image">
+            </div>
+            <div class="flex-grow-1">
+              <h5 class="mb-2">Cloud Computing Services</h5>
+              <p class="mb-5">We can help clients migrate their systems to the cloud, develop cloud-based software applications, and provide ongoing cloud support and maintenance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="service-card service-card--1">
+              <div class="icon-box icon-box--md circle  flex-shrink-0">
+                  <img src="{{asset('website/assets/images/banners/Cell phone-bro.png')}}" alt="image">
+              </div>
+              <div class="flex-grow-1">
+                <h5 class="mb-2">Big Data Analytics</h5>
+                <p class="mb-5"> We can assist clients in analyzing large volumes of data to gain insights that can be used to improve their business operations. This includes developing custom analytics software and providing data visualization services. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card service-card--1">
+              <div class="icon-box icon-box--md circle  flex-shrink-0">
+                  <img src="{{asset('website/assets/images/banners/Financial data-bro.png')}}" alt="image">
+              </div>
+              <div class="flex-grow-1">
+                <h5 class="mb-2">Artificial Intelligence</h5>
+                <p class="mb-5"> We can develop AI solutions that enable clients to automate their processes, analyze data, and gain insights. This includes developing custom AI software, integrating AI algorithms, and providing ongoing support and maintenance. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card service-card--1">
+              <div class="icon-box icon-box--md circle  flex-shrink-0">
+                  <img src="{{asset('website/assets/images/banners/Interior design-pana.png')}}" alt="image">
+              </div>
+              <div class="flex-grow-1">
+                <h5 class="mb-2">DevOps Services</h5>
+                <p class="mb-5"> Programming companies can provide DevOps services that enable clients to streamline their software development processes. This includes automating the build, testing, and deployment of software applications, and providing ongoing support and maintenance. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card service-card--1">
+              <div class="icon-box icon-box--md circle  flex-shrink-0">
+                  <img src="{{asset('website/assets/images/banners/Designer girl-rafiki.png')}}" alt="image">
+              </div>
+              <div class="flex-grow-1">
+                <h5 class="mb-2">UI/UX Design</h5>
+                <p class="mb-5"> We can provide UI/UX design services to help clients create an intuitive and user-friendly interface for their software applications. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card service-card--1">
+              <div class="icon-box icon-box--md circle  flex-shrink-0">
+                  <img src="{{asset('website/assets/images/banners/Artificial intelligence-amico.png')}}" alt="image">
+              </div>
+              <div class="flex-grow-1">
+                <h5 class="mb-2">Agile Software Development</h5>
+                <p class="mb-5"> We can provide Agile software development services to help clients develop software applications using the Agile methodology. This includes developing user stories, conducting sprints, and providing ongoing support and maintenance. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card service-card--1">
+              <div class="icon-box icon-box--md circle  flex-shrink-0">
+                  <img src="{{asset('website/assets/images/banners/Robot face-pana.png')}}" alt="image">
+              </div>
+              <div class="flex-grow-1">
+                <h5 class="mb-2">Networking Services</h5>
+                <p class="mb-5"> We provide the most responsive and functional IT solution to enterprises and businesses
+                  all around the globe. </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="section__gap-top">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-xl-8">
+            <div class="group group-row flex-wrap justify-content-center align-items-center">
+              <a href="service-1.html" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> More Service </a>
+              <a href="/contact"
+                class="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
+                <span class="bttn__arrow"> Contact us Now </span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- Service Section End -->
+
   <!-- About Section End -->
 
   <!-- Work Process Section  -->
   <section class="section">
     <div class="section__gap-bottom">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-md-8 col-xl-7">
             <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> How It Works </span>
@@ -241,7 +338,7 @@
     </div>
     <div class="container">
       <div class="row gy-5 g-4 justify-content-center">
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-2">
           <div class="process-card-2 process-card-2--1 text-center">
             <div class="process-card-2__icon">
               <img src="{{asset('website/assets/images/icon-47.png')}}" alt="image" class="img-fluid">
@@ -251,36 +348,46 @@
             <p>  </p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-2">
           <div class="process-card-2 process-card-2--2 text-center">
             <div class="process-card-2__icon">
               <img src="{{asset('website/assets/images/icon-48.png')}}" alt="image" class="img-fluid">
               <span class="process-card-2__notification"> 02 </span>
             </div>
-            <h5 class="mt-8 mb-2"> Request A Meeting </h5>
+            <h5 class="mt-8 mb-2"> Sit Planning </h5>
             <p>  </p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-2">
           <div class="process-card-2 process-card-2--1 text-center">
             <div class="process-card-2__icon">
               <img src="{{asset('website/assets/images/icon-49.png')}}" alt="image" class="img-fluid">
               <span class="process-card-2__notification"> 03 </span>
             </div>
-            <h5 class="mt-8 mb-2"> Start Planning </h5>
+            <h5 class="mt-8 mb-2"> Start Work </h5>
             <p>  </p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3">
-          <div class="process-card-2 text-center">
+        <div class="col-sm-6 col-lg-2">
+          <div class="process-card-2 process-card-2--2 text-center">
             <div class="process-card-2__icon">
-              <img src="{{asset('website/assets/images/icon-50.png')}}" alt="image" class="img-fluid">
+              <img src="{{asset('website/assets/images/icon-53.png')}}" alt="image" class="img-fluid">
               <span class="process-card-2__notification"> 04 </span>
             </div>
-            <h5 class="mt-8 mb-2"> Lets Make security Happen </h5>
+            <h5 class="mt-8 mb-2"> Testing Product </h5>
             <p>  </p>
           </div>
         </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="process-card-2 text-center">
+              <div class="process-card-2__icon">
+                <img src="{{asset('website/assets/images/icon-50.png')}}" alt="image" class="img-fluid">
+                <span class="process-card-2__notification"> 05 </span>
+              </div>
+              <h5 class="mt-8 mb-2"> Launching  </h5>
+              <p>  </p>
+            </div>
+          </div>
       </div>
     </div>
   </section>

@@ -81,147 +81,12 @@
       </div>
     </div>
   </section>
- <!-- Service Section  -->
- <div class="section">
-    <div class="section__gap-bottom">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-xxl-8">
-            <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> TAKE YOUR BUSINESS TO THE NEXT LEVEL
 
-            </span>
-            <h2 class="mt-5 mb-5 text-center"> Why DigiTalents prefer Mutqana? </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row g-3 g-xxl-4 justify-content-center">
-        <div class="col-md-6 col-lg-4">
-          <div class="service-card service-card--1">
-            <div class="icon-box icon-box--md circle  flex-shrink-0">
-             <img src="{{asset('website/assets/images/banners/Inbox cleanup-pana.png')}}" alt="image">
-            </div>
-            <div class="flex-grow-1">
-                <h5 class="mb-2">Web Development</h5>
-                <p class="mb-5"> We can design and develop websites, web applications, and e-commerce platforms. This includes creating a custom design, developing the site's functionality, and ensuring that it is optimized for search engines.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="service-card service-card--1">
-            <div class="icon-box icon-box--md circle flex-shrink-0">
-                <img src="{{asset('website/assets/images/banners/Mobile testing-amico.png')}}" alt="image">
-            </div>
-            <div class="flex-grow-1">
-                <h5 class="mb-2">Mobile App Development</h5>
-                <p class="mb-5"> We  can create mobile applications for Android and iOS devices. This includes developing the application's functionality, designing the user interface, and ensuring that it is compatible with multiple devices.
-              </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="service-card service-card--1">
-            <div class="icon-box icon-box--md circle  flex-shrink-0">
-                <img src="{{asset('website/assets/images/banners/agile method-bro.png')}}" alt="image">
-            </div>
-            <div class="flex-grow-1">
-              <h5 class="mb-2">Cloud Computing Services</h5>
-              <p class="mb-5">We can help clients migrate their systems to the cloud, develop cloud-based software applications, and provide ongoing cloud support and maintenance.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-            <div class="service-card service-card--1">
-              <div class="icon-box icon-box--md circle  flex-shrink-0">
-                  <img src="{{asset('website/assets/images/banners/Cell phone-bro.png')}}" alt="image">
-              </div>
-              <div class="flex-grow-1">
-                <h5 class="mb-2">Big Data Analytics</h5>
-                <p class="mb-5"> We can assist clients in analyzing large volumes of data to gain insights that can be used to improve their business operations. This includes developing custom analytics software and providing data visualization services. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="service-card service-card--1">
-              <div class="icon-box icon-box--md circle  flex-shrink-0">
-                  <img src="{{asset('website/assets/images/banners/Financial data-bro.png')}}" alt="image">
-              </div>
-              <div class="flex-grow-1">
-                <h5 class="mb-2">Artificial Intelligence</h5>
-                <p class="mb-5"> We can develop AI solutions that enable clients to automate their processes, analyze data, and gain insights. This includes developing custom AI software, integrating AI algorithms, and providing ongoing support and maintenance. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="service-card service-card--1">
-              <div class="icon-box icon-box--md circle  flex-shrink-0">
-                  <img src="{{asset('website/assets/images/banners/Interior design-pana.png')}}" alt="image">
-              </div>
-              <div class="flex-grow-1">
-                <h5 class="mb-2">DevOps Services</h5>
-                <p class="mb-5"> Programming companies can provide DevOps services that enable clients to streamline their software development processes. This includes automating the build, testing, and deployment of software applications, and providing ongoing support and maintenance. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="service-card service-card--1">
-              <div class="icon-box icon-box--md circle  flex-shrink-0">
-                  <img src="{{asset('website/assets/images/banners/Designer girl-rafiki.png')}}" alt="image">
-              </div>
-              <div class="flex-grow-1">
-                <h5 class="mb-2">UI/UX Design</h5>
-                <p class="mb-5"> We can provide UI/UX design services to help clients create an intuitive and user-friendly interface for their software applications. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="service-card service-card--1">
-              <div class="icon-box icon-box--md circle  flex-shrink-0">
-                  <img src="{{asset('website/assets/images/banners/Artificial intelligence-amico.png')}}" alt="image">
-              </div>
-              <div class="flex-grow-1">
-                <h5 class="mb-2">Agile Software Development</h5>
-                <p class="mb-5"> We can provide Agile software development services to help clients develop software applications using the Agile methodology. This includes developing user stories, conducting sprints, and providing ongoing support and maintenance. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="service-card service-card--1">
-              <div class="icon-box icon-box--md circle  flex-shrink-0">
-                  <img src="{{asset('website/assets/images/banners/Robot face-pana.png')}}" alt="image">
-              </div>
-              <div class="flex-grow-1">
-                <h5 class="mb-2">Networking Services</h5>
-                <p class="mb-5"> We provide the most responsive and functional IT solution to enterprises and businesses
-                  all around the globe. </p>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="section__gap-top">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-xl-8">
-            <div class="group group-row flex-wrap justify-content-center align-items-center">
-              <a href="service-1.html" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> More Service </a>
-              <a href="/contact"
-                class="bttn bttn--stroke-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center">
-                <span class="bttn__arrow"> Contact us Now </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Service Section End -->
   <!-- Help Category -->
 
   <!-- Help Category End -->
   <!-- About Section  -->
-  {{-- <div class="section">
+  <div class="section">
     <div class="container">
       <div class="row justify-content-xxl-between">
         <div class="col-lg-6 col-xxl-5">
@@ -229,8 +94,8 @@
             <span class="d-block h5 lh-1 fw-semibold clr-base"> We’re itechex </span>
             <h2 class="mt-2 mb-4"> {{$about_us->title}} </h2>
             <p class="mb-5"> {{$about_us->description}} </p>
-            <p class="mb-8">  {{$about->title}}</p>
-            <p>{{$about->text}}</p>
+            {{-- <p class="mb-8">  {{$about->title}}</p>
+                <p>{{$about->text}}</p> --}}
             <a href="/contact" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s work
               together <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover"> arrow_forward
               </span>
@@ -250,12 +115,15 @@
         </div>
       </div>
     </div>
-  </div> --}}
+  </div>
+
+
   <!-- About Section End -->
 
   <!-- Numbers End -->
+{{--
 
-  {{-- <!-- Value Share  -- >
+ <!-- Value Share  -- > --}}
   <section class="section">
     <div class="section__gap-bottom">
       <div class="container">
@@ -277,19 +145,34 @@
             </div>
             <div class="swiper value-slider">
               <div class="swiper-wrapper">
-                <!-- Slides --
+                <!-- Slides -->
                 <div class="swiper-slide">
                   <div class="value-slider__slide section--sm section--bottom">
                     <div class="row g-4 justify-content-xl-between align-items-lg-center">
                       <div class="col-lg-6 col-xl-7">
                         <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/value-slide-1.jpg')}}" alt="image" class="value-slider__img">
+                         <img src="{{asset('website/assets/images/illustration-business-mission_53876-37670.jpg')}}" alt="image" class="value-slider__img">
                         </div>
                       </div>
                       <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> People </h3>
-                        <p class="clr-light"> They’re the greatest asset that The Software House is built on. We work
-                          with them and for them, making sure they feel fulfilled, appreciated, and satisfied. </p>
+                        <h3 class="mb-5 clr-light"> Mission </h3>
+                        <p class="clr-light"> Developing, designing and implementing high-quality software systems and applications: The company is committed to developing, designing and implementing high-quality software systems and applications that meet customers’ requirements and meet their needs. The company is also keen to use the latest technologies and tools in developing its products and services.
+                            Providing consulting and technical support services to customers: The company provides consulting and technical support services to customers in order to help them use its products and services effectively. The company is also keen to provide technical support 24 hours a day, 7 days a week.
+                            Research and development in the field of modern technology: The company believes in the importance of research and development in the field of modern technology. Therefore, the company continuously invests in research and development in order to develop new products and services that meet market requirements.  </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="value-slider__slide section--sm section--bottom">
+                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="section__gap-bottom pb-lg-0">
+                         <img src="{{asset('website/assets/images/9758763-ai.png')}}" alt="image" class="value-slider__img">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-4">
+                        <h3 class="mb-5 clr-light"> Vision </h3>
+                        <p class="clr-light"> To be the leading software company in the region: The company seeks to be the leading software company in the region by providing high-quality products and services that meet customer requirements and meet their needs. </p>
                       </div>
                     </div>
                   </div>
@@ -299,14 +182,13 @@
                     <div class="row g-4 justify-content-xl-between align-items-lg-center">
                       <div class="col-lg-6 col-xl-7">
                         <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/value-slide-2.jpg')}}" alt="image" class="value-slider__img">
+                         <img src="{{asset('website/assets/images/6034672-ai.png')}}" alt="image" class="value-slider__img">
                         </div>
                       </div>
                       <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Openness </h3>
-                        <p class="clr-light"> We welcome new ideas and challenges that await us. Keeping a broad
-                          perspective on the future, we spot potential and real problems ahead of time, with which we
-                          deal promptly. The openness to one another drives our client and colleague relations. </p>
+                        <h3 class="mb-5 clr-light"> Value </h3>
+                        <p class="clr-light"> Quality: The company is committed to providing high-quality products and services that meet customer requirements and meet their needs.
+                            Innovation: The company believes in the importance of innovation in the field of technology. Therefore, the company is constantly looking for new ideas and innovations that can help it develop new products and services. </p>
                       </div>
                     </div>
                   </div>
@@ -316,69 +198,19 @@
                     <div class="row g-4 justify-content-xl-between align-items-lg-center">
                       <div class="col-lg-6 col-xl-7">
                         <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/value-slide-3.jpg')}}" alt="image" class="value-slider__img">
+                         <img src="{{asset('website/assets/images/realistic-objective-background_79603-1821.png')}}" alt="image" class="value-slider__img">
                         </div>
                       </div>
                       <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Fair play </h3>
-                        <p class="clr-light"> We strive to make decisions that are fair to all sides. Our employees get
-                          adequate praise for their efforts and compensation for their skills. Similarly, our clients
-                          see prices that are adequate to our involvement and work quality. </p>
+                        <h3 class="mb-5 clr-light"> Goals </h3>
+                        <p class="clr-light"> Achieving steady growth in business volume: The company seeks to achieve steady growth in business volume by providing high-quality products and services that meet customer requirements and meet their needs.
+                          Attracting the best talents in the software field: The company believes in the importance of attracting the best talents in the software field. Therefore, the company is keen to provide a suitable work environment and rewarding incentives for talents.
+                          Expansion in foreign markets: The company seeks to expand in foreign markets by providing products and services to customers in various parts of the world. </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="value-slider__slide section--sm section--bottom">
-                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
-                      <div class="col-lg-6 col-xl-7">
-                        <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/value-slide-4.jpg')}}" alt="image" class="value-slider__img">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Fulfilment </h3>
-                        <p class="clr-light"> Being fulfilled by our work keeps us energized. We create first-class
-                          software that’s fast, efficient, and ready to scale because we want us and our clients to be
-                          proud of our work. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="value-slider__slide section--sm section--bottom">
-                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
-                      <div class="col-lg-6 col-xl-7">
-                        <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/value-slide-1.jpg')}}" alt="image" class="value-slider__img">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Responsibility </h3>
-                        <p class="clr-light"> To ensure of our clients’ success, we bring in knowledge, technology
-                          skills, and high engagement to each project. Our communication remains open for all partners
-                          regardless of their continent, culture, or time zone. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="value-slider__slide section--sm section--bottom">
-                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
-                      <div class="col-lg-6 col-xl-7">
-                        <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/value-slide-2.jpg')}}" alt="image" class="value-slider__img">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Growth </h3>
-                        <p class="clr-light"> We aim high, always learning, to understand every novelty from the world
-                          of technology. We support our employees’ learning and practicing so that they can deliver
-                          top-class solutions in ambitious projects. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
             </div>
             <div class="value-slider__control">

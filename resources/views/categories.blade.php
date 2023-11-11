@@ -108,7 +108,7 @@
     </div>
     <div class="container">
         <div class="row gy-5 g-4 justify-content-center">
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-2">
                 <div class="process-card-2 process-card-2--1 text-center">
                     <div class="process-card-2__icon">
                         <img src="assets/images/icon-47.png" alt="image" class="img-fluid">
@@ -118,33 +118,43 @@
                     <p>  </p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-2">
                 <div class="process-card-2 process-card-2--2 text-center">
                     <div class="process-card-2__icon">
                         <img src="assets/images/icon-48.png" alt="image" class="img-fluid">
                         <span class="process-card-2__notification"> 02 </span>
                     </div>
-                    <h5 class="mt-8 mb-2"> Request A Meeting </h5>
+                    <h5 class="mt-8 mb-2"> Make Plan</h5>
                     <p>  </p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-2">
                 <div class="process-card-2 process-card-2--1 text-center">
                     <div class="process-card-2__icon">
                         <img src="assets/images/icon-49.png" alt="image" class="img-fluid">
                         <span class="process-card-2__notification"> 03 </span>
                     </div>
-                    <h5 class="mt-8 mb-2"> Start Planning </h5>
+                    <h5 class="mt-8 mb-2"> Start Work </h5>
                     <p>  </p>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-2">
+                <div class="process-card-2 text-center">
+                    <div class="process-card-2__icon">
+                        <img src="assets/images/icon-53.png" alt="image" class="img-fluid">
+                        <span class="process-card-2__notification"> 04 </span>
+                    </div>
+                    <h5 class="mt-8 mb-2"> Testing Product </h5>
+                    <p>  </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-2">
                 <div class="process-card-2 text-center">
                     <div class="process-card-2__icon">
                         <img src="assets/images/icon-50.png" alt="image" class="img-fluid">
-                        <span class="process-card-2__notification"> 04 </span>
+                        <span class="process-card-2__notification"> 05 </span>
                     </div>
-                    <h5 class="mt-8 mb-2"> Lets Make security Happen </h5>
+                    <h5 class="mt-8 mb-2"> Launching  </h5>
                     <p>  </p>
                 </div>
             </div>
