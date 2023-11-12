@@ -34,14 +34,14 @@
     </div>
     <div class="container-xl">
       <div class="row g-6 gy-10">
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="location-card">
-            <img src="{{asset('website/assets/images/location-card-1.jpg')}}" alt="image" class="img-fluid w-100 rounded-4">
+            <img src="{{asset('website/assets/images/banners/location-card-1.jpg')}}" alt="image" class="img-fluid w-100 rounded-4">
             <div class="group group-row align-items-center justify-content-between mt-8">
               <div class="flex-grow-1">
                 <h4 class="mb-1">Egypt ( Cairo )</h4>
-                <span class="sm-text d-block mb-1"> mutaqina@gmail.com </span>
-                <span class="d-block accent-text-clr fw-md"> 01027855104 </span>
+                <span class="sm-text d-block mb-1"> mutaqanah@gmail.com </span>
+                <span class="d-block accent-text-clr fw-md"> +2010 27 855 104 </span>
               </div>
               <div class="flex-shrink-0">
                 <button class="bttn bttn--base bttn--sqr rounded">
@@ -51,31 +51,14 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="location-card">
-            <img src="{{asset('website/assets/images/location-card-2.jpg')}}" alt="image" class="img-fluid w-100 rounded-4">
+            <img src="{{asset('website/assets/images/banners/location-card-2.jpg')}}" alt="image" class="img-fluid w-100 rounded-4">
             <div class="group group-row align-items-center justify-content-between mt-8">
               <div class="flex-grow-1">
                 <h4 class="mb-1"> Saudi Arabia ( Riyadh ) </h4>
-                <span class="sm-text d-block mb-1"> mutaqina@outlook.com </span>
-                <span class="d-block accent-text-clr fw-md"> (415) 931 - 1616 </span>
-              </div>
-              <div class="flex-shrink-0">
-                <button class="bttn bttn--base bttn--sqr rounded">
-                  <span class="material-symbols-rounded"> arrow_forward_ios </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="location-card">
-            <img src="{{asset('website/assets/images/location-card-3.jpg')}}" alt="image" class="img-fluid w-100 rounded-4">
-            <div class="group group-row align-items-center justify-content-between mt-8">
-              <div class="flex-grow-1">
-                <h4 class="mb-1"> U.A.E ( Dubai )</h4>
-                <span class="sm-text d-block mb-1"> demo@mail.com </span>
-                <span class="d-block accent-text-clr fw-md"> (415) 931 - 1616 </span>
+                <span class="sm-text d-block mb-1"> mutaqana@outlook.com </span>
+                <span class="d-block accent-text-clr fw-md"> +966 53 292 0740 </span>
               </div>
               <div class="flex-shrink-0">
                 <button class="bttn bttn--base bttn--sqr rounded">
@@ -224,7 +207,7 @@
                     <a href="#" class="t-link service-link clr-heading :clr-light">
                       <span class="group gap-1">
                         <span class="d-inline-block service-link__title fw-bold"> Reach Us via Email </span>
-                        <span class="d-block"> demo@mail.com </span>
+                        <span class="d-block"> info@mutqana.com </span>
                       </span>
                       <span class="service-link__icon clr-light bg-base">
                         <span class="material-symbols-outlined mat-icon"> arrow_forward_ios </span>

@@ -297,7 +297,7 @@
                   </ul>
                 </li>
                 <li class="mega-menu--container">
-                  <a href="{{route('services')}}" class="primary-menu__link "> Software </a>
+                  <a href="{{route('services')}}" class="primary-menu__link "> Service </a>
                   <ul class="list mega-menu">
                     <li>
                       <span class="mega-menu__title">Software</span>

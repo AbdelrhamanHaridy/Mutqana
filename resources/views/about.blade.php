@@ -83,39 +83,55 @@
   </section>
 
   <!-- Help Category -->
-
-  <!-- Help Category End -->
-  <!-- About Section  -->
-  <div class="section">
-    <div class="container">
-      <div class="row justify-content-xxl-between">
-        <div class="col-lg-6 col-xxl-5">
-          <div class="section__gap-bottom pb-lg-0 position-sticky top-0">
-            <span class="d-block h5 lh-1 fw-semibold clr-base"> We’re itechex </span>
-            <h2 class="mt-2 mb-4"> {{$about_us->title}} </h2>
-            <p class="mb-5"> {{$about_us->description}} </p>
-            {{-- <p class="mb-8">  {{$about->title}}</p>
-                <p>{{$about->text}}</p> --}}
-            <a href="/contact" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s work
-              together <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover"> arrow_forward
-              </span>
-
-            </a>
+    <!-- About Company 2  -->
+    <section class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="grid-animation">
+                <span class="grid-animation__line-wrapper">
+                  <span class="grid-animation__line"></span>
+                </span>
+                <span class="grid-animation__line-wrapper">
+                  <span class="grid-animation__line"></span>
+                </span>
+                <span class="grid-animation__line-wrapper">
+                  <span class="grid-animation__line"></span>
+                </span>
+                <span class="grid-animation__line-wrapper">
+                  <span class="grid-animation__line"></span>
+                </span>
+                <span class="grid-animation__line-wrapper">
+                  <span class="grid-animation__line"></span>
+                </span>
+                <div class="section">
+                  <div class="row g-4">
+                    <div class="col-md-10 col-lg-6">
+                      <div class="section__gap-bottom pb-lg-0">
+                        <span class="d-block h5 lh-1 fw-semibold clr-base"> Best Solutions </span>
+                        <h2 class="mt-5 mb-5"> In 6 Years, we've Succeeded to Give Best Solutions. </h2>
+                        <p class="mb-8 max-text-60"> We provide customized technological solutions to meet business needs and improve efficiency, which is considered one of the most important factors that help companies grow and develop </p>
+                        <a href="about-us-1.html" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> Find Your Solutions </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="about-img">
+                        <div class="about-img__content about-img__content-xl">
+                          <img src="{{asset('website/assets/images/banners/SPhoto5.png')}}" alt="image" class="about-img__is">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <figure class="about-company-1__img">
-           <img src="{{asset('website/assets/images/about-img-1.jpg')}}" alt="image" class="img-fluid">
-            <figcaption class="about-company-1__img-wrapper">
-              <span class="h2 clr-light m-0 d-block text-start"> 1000 </span>
-              <span class="d-block clr-light text-start"> Over 1000 employees globally use our vision to reality
-                services. </span>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
+      </section>
+      <!-- About Company 2 End -->
+  <!-- Help Category End -->
+  <!-- About Section  -->
+
 
 
   <!-- About Section End -->
@@ -302,6 +318,7 @@
     </div>
   </div>
   <!-- Team Member End -->
+
   <!-- Feedback Section  -->
   <div class="section--sm section--top feedback-section-2">
     <div class="section__gap-bottom">
