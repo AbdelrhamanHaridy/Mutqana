@@ -6,18 +6,15 @@
       <div class="container">
         <div class="row g-4">
           <div class="col-md-8 col-xxl-6" style="margin: auto;">
-            <span class="d-block h4 fw-semibold clr-base mb-2"> Take the best path forward </span>
-            <h3 class="mb-4"> IT Services and Software
+            <span class="d-block h4 fw-semibold clr-base mb-2"> standing at the vanguard of technological innovation to deliver unparalleled solutions to our discerning clientele. </span>
+            <h3 class="mb-4"> We Embrace  Ever-Evolving Digital Landscape
 
-
-              <span class="clr-base">Business.</span>
             </h3>
-            <p class=" xl-text mb-8"> For over 30 years, we've been driving technological innovation and
-              Whether you're looking to upgrade your existing systems, implement new software, or optimize your network,
-              we're here to help.
+            <p class=" xl-text mb-8"> At Mutqana , we embrace  ever-evolving digital landscape,
 
-              Our solutions are tailored to meet your specific needs, and we work closely with you to ensure that you're
-              getting the results you need to succeed.
+                With a steadfast commitment to excellence, we embark on a continuous journey of research and implementation, meticulously integrating the latest advancements into our arsenal of tools. This unwavering pursuit ensures that our clients remain at the forefront of their respective industries, armed with the most sophisticated and efficient tools available.
+
+                Through our eight years of unwavering dedication and the collective brilliance of over 65 skilled engineers, Mutqana has established itself as a beacon of innovation. We meticulously craft bespoke software solutions that empower businesses to transcend boundaries and achieve unparalleled success.
             </p>
 
           </div>
@@ -27,19 +24,20 @@
         </div>
       </div>
     </div>
+
       <!-- Technologies  -->
-  <div class="section bg-base">
+  <div class="section">
     <div class="section__gap-bottom">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-10 col-xl-7">
-            <h2 class="text-center clr-light mb-5 clr-light"> We Hold Expertise in the Following Technologies </h2>
-            <p class="text-center mx-auto max-text-60 clr-light"> We Offer Unique Services Tailored Specifically for
-              Your Company.Innovative Methods to Help Boost Your Company's Profits </p>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-8 col-xl-7">
+              <span class="d-block h5 lh-1 fw-semibold clr-base text-center"> Technologies </span>
+              <h2 class="mt-5 mb-5 text-center"> Technologies We Work on </h2>
+              <p class="text-center mx-auto max-text-50"> Itechex delivers exceptional services through constant innovation by using cutting-edge technologies. </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     <div class="container">
       <div class="row g-4">
         <div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
@@ -180,10 +178,8 @@
     </div> --}}
   </div>
   <!-- Technologies End -->
-
- <!-- About Section  -->
- <!-- Service Section  -->
- <div class="section">
+   <!-- Service Section  -->
+ {{-- <div class="section">
     <div class="section__gap-bottom">
       <div class="container">
         <div class="row justify-content-center">
@@ -319,6 +315,21 @@
   </div>
 
   <!-- Service Section End -->
+  <section class="p-8">
+    <div class="container">
+      <div class="row g-4 align-items-center justify-content-xxl-between">
+        <div class="col-lg-12 col-xl-12 col-xxl-12">
+          <h3>“You can design and create, and build the most wonderful place in the world. But it takes people to make
+            the dream a reality.”</h3>
+          <p>-Walt Disney-
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- About Section  -->
+ --}}
 
   <!-- About Section End -->
 
@@ -393,19 +404,7 @@
   </section>
   <!-- Work Process Section End -->
 
-  <section class="p-8">
-    <div class="container">
-      <div class="row g-4 align-items-center justify-content-xxl-between">
-        <div class="col-lg-12 col-xl-12 col-xxl-12">
-          <h3>“You can design and create, and build the most wonderful place in the world. But it takes people to make
-            the dream a reality.”</h3>
-          <p>-Walt Disney-
 
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- CTA -->
   <div class="section--sm cta-section-3">
     <div class="container">

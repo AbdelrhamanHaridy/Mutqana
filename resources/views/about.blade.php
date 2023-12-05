@@ -13,10 +13,7 @@
                 At Mutqana Innova, we strongly believe that innovation is at the heart of delivering unmatched IT solutions to our clients. Our culture is centered on experimentation and continuous improvement, which enables us to constantly push the limits of what's achievable and discover new opportunities for growth and success. By nurturing innovation within our company, we are able to stay ahead of the curve and provide cutting-edge solutions that meet the evolving needs of our clients. Our commitment to innovation is what sets us apart and enables us to deliver exceptional results that exceed expectations.
             </p>
 
-            <div class="group group-sm-row align-items-start align-items-sm-center pt-3">
-              <a href="/contact" class="bttn bttn-pill bttn-md bttn--base align-items-center fw-md gap-2">
-                Know more about it!              </a>
-            </div>
+
           </div>
           {{-- <div class="col-md-4 col-xxl-6">
            <img src="{{asset('website/assets/images/banners/About.png')}}" class="w-100" alt="">
@@ -81,7 +78,65 @@
       </div>
     </div>
   </section>
+  <!-- Features Section  -->
+  <div class="section">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+<img src="{{asset('website/assets/images/banners/SPhoto1.png')}}" alt="">
+        </div>
+        <div class="col-lg-6">
+<div class="row" style="background: white">
 
+            <div class="col-lg-12" style="    padding: 70px 20px;">
+          <div class="section__gap-top pt-lg-0">
+            <span class="d-inline-block h5 lh-1 fw-semibold clr-base overlay-text"> Our Mission<span class="overlay-text__content">  Our Mission </span>
+            </span>
+                <div class="group group-row icon">
+                    <p class="">
+
+In a world rapidly evolving towards digital dominance, we stand as architects of the future. Our mission transcends the mere creation of applications; it is the orchestration of solutions that will forever shape the digital landscape.
+
+We are the vanguard of this transformation, empowering businesses to seamlessly integrate into the digital ecosystem.
+
+Our commitment extends beyond mere technological prowess; we forge strategic alliances, aligning our expertise with your vision. Together, we craft bespoke software solutions, tailored to your unique needs and aspirations.
+
+Your success is our ultimate triumph. We strive to maximize your business's profitability, delivering tangible value to your users and propelling your products to the pinnacle of success.
+
+Through our arsenal of cutting-edge web and mobile tools, we forge advanced technological solutions, meticulously designed to guarantee a seamless, user-friendly experience. Our creations are not mere applications; they are the embodiment of innovation and excellence.
+                    </p>
+                </div>
+
+          </div>
+        </div>
+
+
+            <div class="col-lg-12">
+              <div class="section__gap-top pt-lg-0">
+                <span class="d-inline-block h5 lh-1 fw-semibold clr-base overlay-text">Our Vision<span class="overlay-text__content">Our Vision </span>
+                </span>
+                    <div class="group group-row icon">
+                      <div class="flex-grouw-1">
+                        <p class="">
+
+                            *In an age of efficiency and convenience, Mutqana stands at the forefront, crafting digital solutions that not only meet but exceed the expectations of today's discerning consumers.*
+
+                            As technology relentlessly reshapes the landscape, the once-dominant offline world now finds itself eclipsed by the booming mobile sphere. In this dynamic environment, Total Solutions has emerged as a beacon of innovation, paving the way for a new generation of transformative products.
+
+                            Mutqana prides itself on being an industry leader, offering cutting-edge web and mobile development, events and training solutions that enable businesses to take their ideas to new heights. Our unwavering commitment to excellence ensures that we breathe new life into your customers' daily routines, delivering solutions that not only satisfy, but also inspire.
+                        </p>
+                      </div>
+                    </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+          </div>
+        </div>
+      <!-- Features Section End -->
   <!-- Help Category -->
     <!-- About Company 2  -->
     <section class="">
@@ -111,7 +166,7 @@
                         <span class="d-block h5 lh-1 fw-semibold clr-base"> Best Solutions </span>
                         <h2 class="mt-5 mb-5"> In 6 Years, we've Succeeded to Give Best Solutions. </h2>
                         <p class="mb-8 max-text-60"> We provide customized technological solutions to meet business needs and improve efficiency, which is considered one of the most important factors that help companies grow and develop </p>
-                        <a href="about-us-1.html" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> Find Your Solutions </a>
+                        <a href="" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> Find Your Solutions </a>
                       </div>
                     </div>
                     <div class="col-lg-6">
@@ -140,108 +195,10 @@
 {{--
 
  <!-- Value Share  -- > --}}
-  <section class="section">
-    <div class="section__gap-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-lg-8 col-xl-6">
-            <span class="d-block h5 lh-1 fw-semibold clr-base"> The Values we Share </span>
-            <h2 class="mt-2 mb-4"> The Values that drive everything we do </h2>
-            <p class="t-short-para"> Strong values that bring great people together </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="value-slider-container">
-            <div class="value-slider__step">
-              <div class="swiper-pagination"></div>
-            </div>
-            <div class="swiper value-slider">
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <div class="value-slider__slide section--sm section--bottom">
-                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
-                      <div class="col-lg-6 col-xl-7">
-                        <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/illustration-business-mission_53876-37670.jpg')}}" alt="image" class="value-slider__img">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Mission </h3>
-                        <p class="clr-light"> Developing, designing and implementing high-quality software systems and applications: The company is committed to developing, designing and implementing high-quality software systems and applications that meet customers’ requirements and meet their needs. The company is also keen to use the latest technologies and tools in developing its products and services.
-                            Providing consulting and technical support services to customers: The company provides consulting and technical support services to customers in order to help them use its products and services effectively. The company is also keen to provide technical support 24 hours a day, 7 days a week.
-                            Research and development in the field of modern technology: The company believes in the importance of research and development in the field of modern technology. Therefore, the company continuously invests in research and development in order to develop new products and services that meet market requirements.  </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="value-slider__slide section--sm section--bottom">
-                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
-                      <div class="col-lg-6 col-xl-7">
-                        <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/9758763-ai.png')}}" alt="image" class="value-slider__img">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Vision </h3>
-                        <p class="clr-light"> To be the leading software company in the region: The company seeks to be the leading software company in the region by providing high-quality products and services that meet customer requirements and meet their needs. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="value-slider__slide section--sm section--bottom">
-                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
-                      <div class="col-lg-6 col-xl-7">
-                        <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/6034672-ai.png')}}" alt="image" class="value-slider__img">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Value </h3>
-                        <p class="clr-light"> Quality: The company is committed to providing high-quality products and services that meet customer requirements and meet their needs.
-                            Innovation: The company believes in the importance of innovation in the field of technology. Therefore, the company is constantly looking for new ideas and innovations that can help it develop new products and services. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="value-slider__slide section--sm section--bottom">
-                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
-                      <div class="col-lg-6 col-xl-7">
-                        <div class="section__gap-bottom pb-lg-0">
-                         <img src="{{asset('website/assets/images/realistic-objective-background_79603-1821.png')}}" alt="image" class="value-slider__img">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-xl-4">
-                        <h3 class="mb-5 clr-light"> Goals </h3>
-                        <p class="clr-light"> Achieving steady growth in business volume: The company seeks to achieve steady growth in business volume by providing high-quality products and services that meet customer requirements and meet their needs.
-                          Attracting the best talents in the software field: The company believes in the importance of attracting the best talents in the software field. Therefore, the company is keen to provide a suitable work environment and rewarding incentives for talents.
-                          Expansion in foreign markets: The company seeks to expand in foreign markets by providing products and services to customers in various parts of the world. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
-              </div>
-            </div>
-            <div class="value-slider__control">
-              <div class="value-slider__fraction"></div>
-              <div class="value-slider__btn swiper-button-prev"></div>
-              <div class="value-slider__btn swiper-button-next"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Value Share End --> --}}
+  <!-- Value Share End -->
 
-  <!-- Team Member  -->
+  {{-- <!-- Team Member  -->
   <div class="section">
     <div class="section__gap-bottom">
       <div class="container">
@@ -387,7 +344,7 @@
       </div>
     </div>
   </div>
-  <!-- Feedback Section End -->
+  <!-- Feedback Section End --> --}}
 {{--
 <div class="page-title-area">
     <div class="container">

@@ -53,11 +53,10 @@
 </footer>
   <!-- Footer  -->
   <div id="myButton"></div>
-  <footer class="footer-3 bg-neutral-100">
-    <div class="section">
+  <footer class="footer-3 bg-neutral-100" style="padding-top:50px ">
       <div class="container">
         <div class="row g-4">
-          <div class="col-xl-4">
+          <div class="col-md-6">
             <a href="{{url('/')}}" class="logo mb-6">
               <img src="{{asset('website/assets/images/banners/logo.png')}}" alt="image" class="logo__img">
             </a>
@@ -73,29 +72,28 @@
               <span  class="fw-md"  title="{{$setting->phone}}">Phone: <a href="tel:{{$setting->phone}}">{{$setting->phone}}</a> </span>
             </p>
           </div>
-          <div class="col-md-3 col-xl-2">
-            <h5 class="mb-10"> IT Services </h5>
+          <div class="col-md-2 ">
+            <h5 class="mb-10"> Useful Links </h5>
             <ul class="list list-xsm">
               <li>
                 <a href="#" class="t-link clr-heading :clr-base"> About Us </a>
               </li>
               <li>
-                <a href="service-1.html" class="t-link clr-heading :clr-base"> Know Mutqana </a>
+                <a href="service-1.html" class="t-link clr-heading :clr-base"> Industries We Serve </a>
               </li>
               <li>
-                <a href="case-study-1.html" class="t-link clr-heading :clr-base"> Clients </a>
+                <a href="case-study-1.html" class="t-link clr-heading :clr-base"> Partner </a>
               </li>
               <li>
-                <a href="/contact" class="t-link clr-heading :clr-base"> Success stories
-                </a>
+                <a href="/contact" class="t-link clr-heading :clr-base"> Success stories</a>
               </li>
               <li>
                 <a href="choose-us-1.html" class="t-link clr-heading :clr-base"> Why Choose Us </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-3 col-xl-2">
-            <h5 class="mb-10">Software </h5>
+          <div class="col-md-2 ">
+            <h5 class="mb-10">Product </h5>
             <ul class="list list-xs">
               <li>
                 <a href="referral.html" class="t-link clr-heading :clr-base"> Agile Software </a>
@@ -111,42 +109,28 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-3 col-xl-2">
+          <div class="col-md-2 ">
             <h5 class="mb-10"> Support </h5>
             <ul class="list list-xs">
               <li>
                 <a href="/contact" class="t-link clr-heading :clr-base"> Contact Us </a>
               </li>
               <li>
-                <a href="facts-1.html" class="t-link clr-heading :clr-base"> Facts </a>
+                <a href="facts-1.html" class="t-link clr-heading :clr-base"> Have Ideas </a>
               </li>
               <li>
-                <a href="" class="t-link clr-heading :clr-base"> FAQ </a>
+                <a href="" class="t-link clr-heading :clr-base"> Need Help </a>
               </li>
               <li>
-                <a href="help-center.html" class="t-link clr-heading :clr-base"> Help Center </a>
+                <a href="help-center.html" class="t-link clr-heading :clr-base"> Work With US </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-3 col-xl-2">
-            <h5 class="mb-10"> Links Of Interest </h5>
-            <ul class="list list-xsm">
-              <li>
-                <a href="leadership-page.html" class="t-link clr-heading :clr-base"> Work with us </a>
-              </li>
-              <li>
-                <a href="getting-started.html" class="t-link clr-heading :clr-base"> Innovation </a>
-              </li>
-              <li>
-                <a href="service-details-1.html" class="t-link clr-heading :clr-base"> Experience Focus </a>
-              </li>
-            </ul>
-          </div>
+
         </div>
       </div>
-    </div>
 
-    <div class="pt-8 pb-8">
+    <div class="pt-8">
       <div class="container">
         <div class="row g-4 align-items-md-center">
           <div class="col-md-6">

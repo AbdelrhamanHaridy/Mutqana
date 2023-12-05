@@ -1,7 +1,6 @@
   <!-- preloader -->
   <div class="preloader">
     <div class="preloader__img">
-      <img src="{{asset('website/assets/images/banners/logo.png')}}" alt="image">
     </div>
   </div>
   <!-- preloader End -->
@@ -231,9 +230,9 @@
                   <div class="col-12">
                     <div class="mobile-header__content">
                       <!-- Logo  -->
-                      <a href="home.html" class="logo">
+                      <a href="/" class="logo">
                         <img src="{{asset('website/assets/images/banners/logo.png')}}" alt="image" class="logo__img logo__dark">
-                        <img src="{{asset('website/assets/images/banners/logo.png')}}" alt="image" class="logo__img logo__light">
+                        <img src="{{asset('website/assets/images/banners/logo-35.png')}}" alt="image" class="logo__img logo__light">
                       </a>
                       <!-- Logo end -->
                       <!-- Mobile Menu Toggle  -->
@@ -252,7 +251,7 @@
               <!-- Logo -->
               <a href="{{url('/')}}" class="logo">
                 <img src="{{asset('website/assets/images/banners/logo.png')}}" alt="image" class="logo__img logo__dark">
-                <img src="{{asset('website/assets/images/banners/logo.png')}}" alt="image" class="logo__img logo__light">
+                <img src="{{asset('website/assets/images/banners/logo-35.png')}}" alt="image" class="logo__img logo__light">
               </a>
               <!-- Logo End -->
               <ul class="list primary-menu__list">
@@ -297,10 +296,10 @@
                   </ul>
                 </li>
                 <li class="mega-menu--container">
-                  <a href="{{route('services')}}" class="primary-menu__link "> Service </a>
+                  <a href="{{route('services')}}" class="primary-menu__link "> Service & Selution </a>
                   <ul class="list mega-menu">
                     <li>
-                      <span class="mega-menu__title">Software</span>
+                      <span class="mega-menu__title">Software </span>
                       <ul class="list mega-menu__list">
                         <li>
                           <a href="#" class="mega-menu__link"> Factory
@@ -348,7 +347,7 @@
                   </ul>
                 </li>
                 <li class="mega-menu--container">
-                  <a href="#" class="primary-menu__link "> Talents </a>
+                  <a href="#" class="primary-menu__link "> Our Projects  </a>
                   <ul class="list mega-menu">
                     <li>
                       <span class="mega-menu__title">Digital Talents</span>
@@ -389,8 +388,9 @@
 
                   </ul>
                 </li>
-                <!-- <li class="mega-menu--container">
-                  <a href="ourteam.html" class="primary-menu__link "> Team </a>
+
+                 <li class="mega-menu--container">
+                  <a href="#" class="primary-menu__link "> Team </a>
                   <ul class="list mega-menu">
                     <li>
                       <span class="mega-menu__title"> Work with us</span>
@@ -432,9 +432,9 @@
                     </li>
 
                   </ul>
-                </li> -->
+                </li>
                 <li class="mega-menu--container">
-                  <a href="{{route('articles')}}" class="primary-menu__link "> Blog </a>
+                  <a href="{{route('articles')}}" class="primary-menu__link "> Blog & News </a>
                 </li>
                 {{-- <li class="ms-auto border-end border-light-subtle">
                   <a href="" class="primary-menu__link py-0 px-3"> RTL </a>
@@ -449,7 +449,7 @@
                       </span>
                     </button>
                   </li>
-                  <li class="mega-menu--container">
+                  {{-- <li class="mega-menu--container">
                     <a  class="primary-menu__link "> Login </a>
                     <ul class="list mega-menu">
                       <li>
@@ -482,7 +482,7 @@
 
 
                     </ul>
-                  </li>
+                  </li> --}}
                 <li>
                   <a href="{{route('mail')}}" class="bttn bttn--base bttn-sm bttn-pill fw-md flex-shrink-0"> Contact us
                     US </a>

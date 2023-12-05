@@ -18,20 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="section__gap-bottom">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="text-center">
-              <a href="/contact" class="bttn bttn--base bttn-md bttn-pill gap-2 fw-md flex-shrink-0"> Let’s
-                  Call Us <span class="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-cover">
-                  headphones </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <div class="container-xl">
       <div class="row g-6 gy-10">
         <div class="col-md-6">
@@ -40,13 +27,14 @@
             <div class="group group-row align-items-center justify-content-between mt-8">
               <div class="flex-grow-1">
                 <h4 class="mb-1">Egypt ( Cairo )</h4>
-                <span class="sm-text d-block mb-1"> mutaqanah@gmail.com </span>
-                <span class="d-block accent-text-clr fw-md"> +2010 27 855 104 </span>
+                <span class="sm-text d-block mb-1"> mutqanah@gmail.com </span>
               </div>
               <div class="flex-shrink-0">
                 <button class="bttn bttn--base bttn--sqr rounded">
-                  <span class="material-symbols-rounded"> arrow_forward_ios </span>
-                </button>
+                    <a href="https://api.whatsapp.com/send/?phone=01101775645&text&type=phone_number&app_absent=0">
+                        <span class="material-symbols-rounded"> arrow_forward_ios </span>
+                    </a>
+                                </button>
               </div>
             </div>
           </div>
@@ -57,13 +45,14 @@
             <div class="group group-row align-items-center justify-content-between mt-8">
               <div class="flex-grow-1">
                 <h4 class="mb-1"> Saudi Arabia ( Riyadh ) </h4>
-                <span class="sm-text d-block mb-1"> mutaqana@outlook.com </span>
-                <span class="d-block accent-text-clr fw-md"> +966 53 292 0740 </span>
+                <span class="sm-text d-block mb-1"> info@mutqana.com </span>
               </div>
               <div class="flex-shrink-0">
+                  <a href="https://api.whatsapp.com/send/?phone=01101775645&text&type=phone_number&app_absent=0">
                 <button class="bttn bttn--base bttn--sqr rounded">
-                  <span class="material-symbols-rounded"> arrow_forward_ios </span>
-                </button>
+                        <span class="material-symbols-rounded"> arrow_forward_ios </span>
+                    </button>
+                </a>
               </div>
             </div>
           </div>
@@ -182,9 +171,9 @@
             <div class="col-lg-6">
                 <ul class="list gap-0 service-link-list">
                   <li>
-                    <a href="#" class="t-link service-link clr-heading :clr-light border-bottom">
+                    <a href="mailto:info@mutqana.com" class="t-link service-link clr-heading :clr-light border-bottom">
                       <span class="group gap-1">
-                        <span class="d-inline-block service-link__title fw-bold"> Book a Demo </span>
+                        <span class="d-inline-block service-link__title fw-bold"> Tell Us About Your Project                        </span>
                         <span class="d-block"> with our engagement specialist </span>
                       </span>
                       <span class="service-link__icon clr-light bg-base">
@@ -193,7 +182,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="t-link service-link clr-heading :clr-light border-bottom">
+                    <a href="mailto:info@mutqana.com" class="t-link service-link clr-heading :clr-light border-bottom">
                       <span class="group gap-1">
                         <span class="d-inline-block service-link__title fw-bold"> Send Your CV </span>
                         <span class="d-block"> if you want to join our team </span>
@@ -204,7 +193,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="t-link service-link clr-heading :clr-light">
+                    <a href="mailto:info@mutqana.com" class="t-link service-link clr-heading :clr-light">
                       <span class="group gap-1">
                         <span class="d-inline-block service-link__title fw-bold"> Reach Us via Email </span>
                         <span class="d-block"> info@mutqana.com </span>

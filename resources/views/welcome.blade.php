@@ -131,7 +131,39 @@
         </div>
       </div>
     </div>
+    <!-- Brand Section  -->
+    <div class="brand-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="brand-section__content">
+                <div class="row g-4 justify-content-center align-items-center">
+                  <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
+                    <img src="{{asset('website/assets/images/client/client-1.png')}}" alt="image" class="img-fluid">
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
+                    <img src="{{asset('website/assets/images/client/client-3.png')}}" alt="image" class="img-fluid">
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
+                    <img src="{{asset('website/assets/images/client/client-4.png')}}" alt="image" class="img-fluid">
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
+                    <img src="{{asset('website/assets/images/client/client-5.png')}}" alt="image" class="img-fluid">
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
+                    <img src="{{asset('website/assets/images/client/client-6.png')}}" alt="image" class="img-fluid">
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
+                    <img src="{{asset('website/assets/images/client/client-7.png')}}" alt="image" class="img-fluid">
+                  </div>
 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Brand Section End -->
     <section class="diagonals">
         <div class="bg"></div>
 <div class="bg bg2"></div>
@@ -191,8 +223,131 @@
       </div>
     </div>
   </div>
-  <!-- About Section End -->
+  <div class="section" >
+    <div class="container">
+        <div class="">
+            <span class="d-inline-block h5 lh-1 fw-semibold clr-base overlay-text"> Client Success
+                <span class="overlay-text__content">  Client Success</span>
+            </span>
+            <div class="row " style="padding: 30px">
 
+                <div class="col-lg-12">
+                    <div class="box">
+                        <h2>
+
+                            Achieving success is possible with the right technology
+                            partner. See for yourself with our case studies and discover
+                            how our solutions have helped businesses.
+                        </h2>
+                    </div>
+                </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Section End -->
+  <div class="container">
+    <iframe width="100%" style="height: 80vh" src="https://www.youtube.com/embed/wN-mZtbX2Pg?si=t-kexedxCR_rZKnG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{{--
+<section class="section">
+    <div class="section__gap-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 col-xl-6">
+            <span class="d-block h5 lh-1 fw-semibold clr-base"> The Values we Share </span>
+            <h2 class="mt-2 mb-4"> The Values that drive everything we do </h2>
+            <p class="t-short-para"> Strong values that bring great people together </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="value-slider-container">
+
+            <div class="swiper value-slider">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="value-slider__slide section--sm section--bottom">
+                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="section__gap-bottom pb-lg-0">
+                         <img src="{{asset('website/assets/images/illustration-business-mission_53876-37670.jpg')}}" alt="image" class="value-slider__img">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-4">
+                        <h3 class="mb-5 clr-light"> Mission </h3>
+                        <p class="clr-light"> Developing, designing and implementing high-quality software systems and applications: The company is committed to developing, designing and implementing high-quality software systems and applications that meet customers’ requirements and meet their needs. The company is also keen to use the latest technologies and tools in developing its products and services.
+                            Providing consulting and technical support services to customers: The company provides consulting and technical support services to customers in order to help them use its products and services effectively. The company is also keen to provide technical support 24 hours a day, 7 days a week.
+                            Research and development in the field of modern technology: The company believes in the importance of research and development in the field of modern technology. Therefore, the company continuously invests in research and development in order to develop new products and services that meet market requirements.  </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="value-slider__slide section--sm section--bottom">
+                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="section__gap-bottom pb-lg-0">
+                         <img src="{{asset('website/assets/images/9758763-ai.png')}}" alt="image" class="value-slider__img">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-4">
+                        <h3 class="mb-5 clr-light"> Vision </h3>
+                        <p class="clr-light"> To be the leading software company in the region: The company seeks to be the leading software company in the region by providing high-quality products and services that meet customer requirements and meet their needs. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="value-slider__slide section--sm section--bottom">
+                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="section__gap-bottom pb-lg-0">
+                         <img src="{{asset('website/assets/images/6034672-ai.png')}}" alt="image" class="value-slider__img">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-4">
+                        <h3 class="mb-5 clr-light"> Value </h3>
+                        <p class="clr-light"> Quality: The company is committed to providing high-quality products and services that meet customer requirements and meet their needs.
+                            Innovation: The company believes in the importance of innovation in the field of technology. Therefore, the company is constantly looking for new ideas and innovations that can help it develop new products and services. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="value-slider__slide section--sm section--bottom">
+                    <div class="row g-4 justify-content-xl-between align-items-lg-center">
+                      <div class="col-lg-6 col-xl-7">
+                        <div class="section__gap-bottom pb-lg-0">
+                         <img src="{{asset('website/assets/images/realistic-objective-background_79603-1821.png')}}" alt="image" class="value-slider__img">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-xl-4">
+                        <h3 class="mb-5 clr-light"> Goals </h3>
+                        <p class="clr-light"> Achieving steady growth in business volume: The company seeks to achieve steady growth in business volume by providing high-quality products and services that meet customer requirements and meet their needs.
+                          Attracting the best talents in the software field: The company believes in the importance of attracting the best talents in the software field. Therefore, the company is keen to provide a suitable work environment and rewarding incentives for talents.
+                          Expansion in foreign markets: The company seeks to expand in foreign markets by providing products and services to customers in various parts of the world. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="value-slider__control">
+              <div class="value-slider__fraction"></div>
+              <div class="value-slider__btn swiper-button-prev"></div>
+              <div class="value-slider__btn swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> --}}
   <!-- About  -->
   <div class="section">
     <div class="container">
@@ -229,18 +384,15 @@
                 We understand that your success is our success, and we are committed to building a strong partnership with you that lasts.
 
                 With our tech services, you can experience the intelligent way to cut costs without compromising on quality. </p>
-            <div class="group group-md group-row flex-wrap mt-10">
-              <a href="#" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0"> ADD THE RIGHT TALENTS <span
-                  class="material-symbols-rounded mat-icon fw-100 bttn__icon"> trending_flat </span>
-              </a>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- About End -->
+
   <!-- About  -->
+
   <div class="section">
     <div class="container">
       <div class="row">
@@ -254,12 +406,6 @@
             <p class="mb-8 max-text-60"> we understand that the key to success in custom software development is having the right team in place. That's why we have assembled a team of experts with decades of experience and a proven track record of delivering tailor-made, cutting-edge solutions that foster sustainable business growth.
 
                 We believe that every business is unique, and our approach to custom software development reflects this. We work closely with our clients to understand their specific needs and objectives, and we customize our solutions accordingly. By choosing us as your partner, you can be confident that you are getting a solution that is tailored to your business requirements and that will provide a competitive edge in your industry.</p>
-            <div class="group group-md group-row flex-wrap mt-10">
-              <a href="#" class="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0 w-100"> IT MADE
-                ACCESSIBLE FROM BEGINNING TO END
-                <span class="material-symbols-rounded mat-icon fw-100 bttn__icon"> trending_flat </span>
-              </a>
-            </div>
           </div>
         </div>
         <div class="col-xl-6">
@@ -273,9 +419,10 @@
     </div>
   </div>
   <!-- About End -->
-  <!-- CTA Section  -->
+    <!-- Features Section  -->
+     <!-- CTA Section  -->
   <div class="cta-section-1">
-    <div class="cta-section-1__content section">
+    <div class="cta-section-1__content ">
       <div class="container">
         <div class="row ">
           <div class="col-lg-5">
@@ -295,13 +442,86 @@
     </div>
   </div>
   <!-- CTA Section End -->
+  <div class="section" >
+    <div class="container">
+        <div class="">
+            <span class="d-inline-block h5 lh-1 fw-semibold clr-base overlay-text"> Industries We Serve
+                <span class="overlay-text__content">  Industries We Serve</span>
+            </span>
+            <div class="row " style="padding: 30px">
+
+                <div class="col-lg-6">
+                    <div class="box">
+                        <img src="{{asset('website/assets/images/industries-1.png')}}" alt="">
+                        <h2>Supply Chain
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                    <img src="{{asset('website/assets/images/industries-2.png')}}" alt="">
+                    <h2>Healthcare </h2>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                    <img src="{{asset('website/assets/images/industries-3.png')}}" alt="">
+                    <h2>EdTech                        </h2>
+                </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                    <img src="{{asset('website/assets/images/industries-4.png')}}" alt="">
+                    <h2>Sports and Fitness </h2>
+                </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                    <img src="{{asset('website/assets/images/industries-5.png')}}" alt="">
+                    <h2>FinTech </h2>
+                </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                    <img src="{{asset('website/assets/images/industries-6.png')}}" alt="">
+                    <h2>Real Estate
+
+                    </h2>
+                </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                    <img src="{{asset('website/assets/images/industries-7.png')}}" alt="">
+                    <h2>Media and Entertainment </h2>
+                </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+
+                    <img src="{{asset('website/assets/images/industries-8.png')}}" alt="">
+                    <h2>Travel and Hospitality </h2>
+                </div>
+                </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Features Section End -->
+
   <!-- Features Section  -->
   <div class="section">
     <div class="container">
       <div class="row g-4 align-items-center">
         <div class="col-lg-6">
           <div class="section__gap-top pt-lg-0">
-            <span class="d-inline-block h5 lh-1 fw-semibold clr-base overlay-text"> Why Choose Us                class="overlay-text__content">Features</span>
+            <span class="d-inline-block h5 lh-1 fw-semibold clr-base overlay-text"> Why Choose Us    <span class="overlay-text__content">  Choose Us </span>
             </span>
             <h2 class="mt-5 mb-12"> Our first priority is serving your IT requirements. </h2>
             <ul class="list list-lg">
@@ -385,9 +605,8 @@
             <a href="/contact" class="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md">
               Accessible IT from beginning to
               end </a>
-            <a href="#"
-              class="bttn bttn--light-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center clr-light"> Get
-              to know the community </a>
+<a href="/services"
+              class="bttn bttn--light-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center clr-light"> Get to know the community </a>
           </div>
         </div>
       </div>
@@ -525,7 +744,7 @@
             </div>
             <div class="row">
                 @foreach($articles as $article)
-                    <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                    <div class="col-lg-6 col-md-6 offset-lg-0 offset-md-3">
                         <div class="single-blog-box">
                             <a href="{{route('article',$article->id)}}">
                                 <img src="{{$article->photo}}" alt="{{$article->title}}">

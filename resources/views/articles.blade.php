@@ -762,37 +762,7 @@
       </div>
     </div>
   </div>
-  <!-- Latest Post End -->
-  <!-- CTA  -->
-  <div class="section pt-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="cta-banner bg-base rounded-5">
-            <div class="row align-items-center">
-              <div class="col-md-6">
-                <div class="section__gap-bottom pb-md-0">
-                  <h3 class="clr-light mb-6"> Subscribe to our weekly email newsletter </h3>
-                  <p class="clr-light mb-6"> Need more information? Subscribe to Newsletter & Get Update and News </p>
-                  <div class="newsletter-2 newsletter-2--light max-text-50">
-                    <input type="text" class="newsletter-2__input" placeholder="Enter your email">
-                    <button class="bttn bttn--light bttn-md fw-md flex-shrink-0 rounded-1 newsletter-2__btn"> subscribe
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="text-center">
-                  <img src="{{asset('website/assets/images/cta-img-2.png')}}" alt="image" class="img-fluid mx-auto">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- CTA End  -->
+
   {{--
     <div class="page-title-area">
         <div class="container">
